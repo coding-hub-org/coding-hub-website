@@ -1,0 +1,14 @@
+.btn_1 {
+  width: 250px;
+  border-radius: 70px;
+  background-image: linear-gradient(to right, #fd4e33, #e9345d);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.btn_1:hover {
+  background-image: linear-gradient(to right, #e47a6a, #f7073f);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
