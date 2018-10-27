@@ -7,3 +7,9 @@
 .toggle-button:hover {
   /* color: green; */
 }
+
+@media (max-width: 550px) {
+  .toggle-button {
+    font-size: 16px;
+  }
+}

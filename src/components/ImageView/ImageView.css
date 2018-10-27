@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  .imageView img {
+    min-width: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageView img {
+    min-width: 60% !important;
+    max-width: 60% !important;
+  }
+}

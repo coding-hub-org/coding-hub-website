@@ -2,8 +2,15 @@ import React from "react";
 import "./ImageView.css";
 
 const imageView = props => (
-  <div>
-    <img src={props.img} alt="" />
+  <div className="imageView">
+    <img
+      src={props.img}
+      style={{
+        minWidth: props.sizeInPercentage + "px",
+        maxWidth: props.sizeInPercentage + "px"
+      }}
+      alt=""
+    />
   </div>
 );
 

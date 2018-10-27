@@ -1,3 +1,9 @@
+:root {
+  --main-text-color: #7a7a7a;
+  --secondary-text-color: #7a7a7a;
+  --height: 100px;
+}
+
 .side-drawer {
   height: 100%;
   background: #f9fcfb;
@@ -42,12 +48,12 @@
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: rgb(4, 5, 5);
+  color: var(--main-text-color);
 }
 
 .side-drawer a {
   font-size: 20px;
-  color: #000;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 

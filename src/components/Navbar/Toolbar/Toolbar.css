@@ -5,8 +5,8 @@
 }
 
 :root {
-  --main-text-color: #000;
-  --secondary-text-color: #000;
+  --main-text-color: #7a7a7a;
+  --secondary-text-color: #7a7a7a;
   --height: 100px;
 }
 
@@ -14,7 +14,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  position: fixed;
+  position: absolute;
   display: flex;
   background: transparent;
   height: var(--height);
@@ -187,7 +187,7 @@
     width: 180px;
   }
   .toolbar_logo {
-    margin-top: 55px;
+    margin-top: 54px;
   }
 }
 
@@ -196,6 +196,16 @@
     width: 140px;
   }
   .toolbar_logo {
-    margin-top: 58px;
+    margin-top: 57px;
+  }
+}
+
+@media (max-width: 450px) {
+  .toolbar_logo {
+    margin-left: 40px;
+  }
+
+  .toolbar_navigation {
+    margin-right: 40px;
   }
 }
