@@ -1,0 +1,17 @@
+.Section4 {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: 1fr 1.5fr 1fr;
+}
+
+.title-div {
+  display: grid;
+  justify-content: center;
+}
+
+.projects {
+  align-self: center;
+  padding: 0 200px;
+}

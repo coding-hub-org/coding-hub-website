@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Section3.css";
 import Title from "../Title/Title";
-import ImageView from "../ImageView/ImageView";
 import DeviceImage from "../../main_assets/images/Devices.svg";
 import CardListWithBorders from "../CardListWithBorders/CardListWithBorders";
 
@@ -14,7 +13,7 @@ class Section3 extends Component {
             <Title title="WHAT WE DO?" />
           </div>
           <div className="image-dv">
-            <ImageView img={DeviceImage} sizeInPixels="1000" />
+            <img src={DeviceImage} width="1000px" alt="" />
           </div>
         </div>
         <div className="Section3-Part2">

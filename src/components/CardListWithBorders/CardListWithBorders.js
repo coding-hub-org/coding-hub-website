@@ -43,7 +43,7 @@ let cards = [
 const cardListWithBorders = props => (
   <div className="cards">
     {cards.map(card => (
-      <div class="cardsInner" id={card.title}>
+      <div className="cardsInner" key={card.title} id={card.title}>
         <CardDuties {...card} />
       </div>
     ))}

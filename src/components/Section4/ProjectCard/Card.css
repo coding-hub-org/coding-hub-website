@@ -1,0 +1,35 @@
+.card {
+  display: grid;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+}
+
+.plusButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardTitle {
+  font-size: 26px;
+  padding: 30px;
+}
+
+.cardDescription {
+  color: var(--main-text-color);
+  font-size: 18px;
+}
+
+.plusButton a {
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+}
+
+.plus {
+  background: #395aff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
