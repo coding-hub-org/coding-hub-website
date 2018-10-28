@@ -1,3 +1,11 @@
+:root {
+  --main-text-color: #7a7a7a;
+  --secondary-text-color: #7a7a7a;
+  --light-color: #e0dfdf;
+  --darker-color: #878787;
+  --height: 100px;
+}
+
 .section-1 {
   text-align: center;
   display: grid;

@@ -4,13 +4,6 @@
   font-family: "Work Sans", sans-serif;
 }
 
-:root {
-  --main-text-color: #7a7a7a;
-  --secondary-text-color: #7a7a7a;
-  --light-color: #e0dfdf;
-  --height: 100px;
-}
-
 .toolbar {
   width: 100%;
   top: 0;

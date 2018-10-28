@@ -1,3 +1,82 @@
 .footer-container {
+  padding: 50px 300px 30px 300px;
   display: grid;
+  grid-template-rows: 2fr 0.5fr 1fr;
+  grid-row-gap: 20px;
+  background-color: #333333;
+  color: white;
+}
+
+.footer-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-logo {
+  font-size: 28px;
+}
+
+.footer-navigation {
+  justify-self: center;
+}
+
+.footer-social {
+  justify-self: flex-end;
+}
+
+.footer-row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#footer-hr {
+  display: block;
+  height: 0.5px;
+  border: 0;
+  border-top: 0.5px solid #444444;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.terms-and-privacy {
+  justify-self: flex-end;
+}
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 20px;
+}
+
+.footer-navigation > * {
+  width: 100%;
+}
+
+.footer-social {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 20px;
+}
+
+.footer-rights {
+  color: var(--darker-color);
+}
+
+.greenDot {
+  color: #35bc5d;
+}
+
+.terms-and-privacy {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+
+.fab .fa-facebook {
+  color: black;
 }
