@@ -9,7 +9,7 @@ const card = props => (
     <div className="cardTitle">{props.title}</div>
     <div className="cardDescription">{props.description}</div>
     <div className="plusButton">
-      {/* <i>+</i> */}{" "}
+      {/* <i>+</i> */}
       <span className="plus">
         <a href="">+ </a>
       </span>
