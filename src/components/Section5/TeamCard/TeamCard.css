@@ -1,0 +1,100 @@
+.teamCard {
+  display: grid;
+  padding: 25px 40px;
+  width: 350px;
+  border: 2px solid var(--light-color);
+}
+
+.teamCardImage {
+  display: grid;
+  justify-content: center;
+}
+.teamCardImage img {
+  justify-self: center;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px;
+}
+
+.teamCardSymbol {
+  color: var(--main-text-color);
+  font-size: 30px;
+}
+
+.teamCardName {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0px 5px 0px;
+}
+
+.teamCardTitle {
+  color: var(--main-text-color);
+  vertical-align: center;
+  display: grid;
+  align-content: center;
+  /* font-size: 18px; */
+}
+
+.bottomLine {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.links {
+  justify-self: flex-end;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+}
+.teamCardWebsite {
+  justify-self: center;
+  height: 36px;
+  width: 36px;
+  background-color: #ff5661;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px;
+}
+
+.teamCardWebsite > a > i {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.fab.fa-linkedin-in {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.teamCardMessage {
+  height: 36px;
+  justify-self: center;
+  width: 36px;
+  text-align: center;
+  background: blue;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px;
+}
+
+.plusTeamCard a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.plusTeamCard {
+  display: grid;
+  height: 36px;
+  width: 36px;
+  align-items: center;
+}
+
+.linkedInCircle {
+  display: grid;
+  background-color: #0e76a8;
+  border-radius: 20%;
+  height: 38px;
+}

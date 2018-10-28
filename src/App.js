@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Section3 from "./components/Section3/Section3";
 import Section4 from "./components/Section4/Section4";
+import Section5 from "./components/Section5/Section5";
 import ImageView from "./components/ImageView/ImageView";
 import LogoImage from "./main_assets/images/logo_vector@2x.png";
 
@@ -20,6 +21,7 @@ class App extends Component {
         <div className="section-2">{/* <About /> */}</div>
         <Section3 />
         <Section4 />
+        <Section5 />
       </div>
     );
   }
