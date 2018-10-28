@@ -1,0 +1,17 @@
+.Section3-Part1 {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.title-div {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.Section3-Part2 {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

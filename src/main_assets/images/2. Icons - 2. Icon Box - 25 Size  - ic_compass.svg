@@ -1,0 +1,32 @@
+<svg id="_2._Icons_2._Icon_Box_25_Size_ic_compass" data-name="2. Icons / 2. Icon Box / 25 Size  / ic_compass" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #666;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="ic_browser_windows" data-name="ic_browser windows" class="cls-1" d="M34.571,50H9.428A9.439,9.439,0,0,1,0,40.57V15.43A9.44,9.44,0,0,1,9.428,6H34.571A9.44,9.44,0,0,1,44,15.43V40.57A9.439,9.439,0,0,1,34.571,50ZM2,20V40a8.01,8.01,0,0,0,8,8H34c5.158,0,8-2.131,8-6V20ZM10,8a8.009,8.009,0,0,0-8,8v2H42V16a8.008,8.008,0,0,0-8-8ZM48,40.316V8.332A6.34,6.34,0,0,0,41.666,2H9.684a9.3,9.3,0,0,1,5.744-2H40.57A9.44,9.44,0,0,1,50,9.428V34.571a9.309,9.309,0,0,1-2,5.74ZM34,14H32V12h2v2Zm-6,0H6V12H28v2Z"/>
+    </clipPath>
+  </defs>
+  <rect id="_2._Icons_2._Icon_Box_25_Size_ic_compass_background" data-name="2. Icons / 2. Icon Box / 25 Size  / ic_compass background" class="cls-2" width="50" height="50" transform="translate(0 0)"/>
+  <path id="ic_browser_windows-2" data-name="ic_browser windows" class="cls-1" d="M34.571,50H9.428A9.439,9.439,0,0,1,0,40.57V15.43A9.44,9.44,0,0,1,9.428,6H34.571A9.44,9.44,0,0,1,44,15.43V40.57A9.439,9.439,0,0,1,34.571,50ZM2,20V40a8.01,8.01,0,0,0,8,8H34c5.158,0,8-2.131,8-6V20ZM10,8a8.009,8.009,0,0,0-8,8v2H42V16a8.008,8.008,0,0,0-8-8ZM48,40.316V8.332A6.34,6.34,0,0,0,41.666,2H9.684a9.3,9.3,0,0,1,5.744-2H40.57A9.44,9.44,0,0,1,50,9.428V34.571a9.309,9.309,0,0,1-2,5.74ZM34,14H32V12h2v2Zm-6,0H6V12H28v2Z" transform="translate(0 0)"/>
+  <g id="Group_1895" data-name="Group 1895" class="cls-3" transform="translate(0 0)">
+    <g id="icon_color" data-name="icon color" transform="translate(0 0)">
+      <rect id="icon_color_background" data-name="icon color background" class="cls-2" width="50" height="50"/>
+      <rect id="Gary_40" data-name="Gary 40" class="cls-4" width="50" height="50"/>
+    </g>
+  </g>
+</svg>

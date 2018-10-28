@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41.999 46.003">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-4 {
+        fill: #666;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="ic_compass" class="cls-1" d="M6.129,46l0,0-1.733-.994,7.378-12.688A27.027,27.027,0,0,1,0,17.993H2.1A25.071,25.071,0,0,0,12.8,30.55l6.6-11.6A7.015,7.015,0,0,1,22,6V0h2V6a7.12,7.12,0,0,1,6,7.013,7,7,0,0,1-3.3,5.926L42,45.007,40.266,46,33.624,34.583A27.424,27.424,0,0,1,25,35.982a25.447,25.447,0,0,1-11.466-2.714L6.131,46ZM21.2,19.753,14.546,31.531A23.554,23.554,0,0,0,25,33.982a25.583,25.583,0,0,0,7.6-1.166L24.8,19.742a6.629,6.629,0,0,1-1.8.275A6.892,6.892,0,0,1,21.2,19.753Zm1.976-11.74a5.16,5.16,0,0,0-5.177,5,5,5,0,0,0,10,0A4.865,4.865,0,0,0,23.177,8.014Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1897" data-name="Group 1897" class="cls-2">
+    <g id="icon_color" data-name="icon color" transform="translate(-4 -2)">
+      <rect id="icon_color_background" data-name="icon color background" class="cls-3" width="50" height="50"/>
+      <rect id="Gary_40" data-name="Gary 40" class="cls-4" width="50" height="50"/>
+    </g>
+  </g>
+</svg>

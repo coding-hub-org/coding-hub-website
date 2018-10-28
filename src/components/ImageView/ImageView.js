@@ -6,8 +6,8 @@ const imageView = props => (
     <img
       src={props.img}
       style={{
-        minWidth: props.sizeInPercentage + "px",
-        maxWidth: props.sizeInPercentage + "px"
+        minWidth: props.sizeInPixels + "px",
+        maxWidth: props.sizeInPixels + "px"
       }}
       alt=""
     />
