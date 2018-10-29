@@ -8,6 +8,7 @@ import Section5 from "./components/Section5/Section5";
 import Footer from "./components/Footer/Footer";
 import ImageView from "./components/ImageView/ImageView";
 import LogoImage from "./main_assets/images/logo_vector@2x.png";
+import About from "./components/About/About"
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
             <ImageView img={LogoImage} sizeInPixels="600" />
           </div>
         </div>
-        <div className="section-2">{/* <About /> */}</div>
+        <About title="ABOUT" description="test"/>
+
         <Section3 />
         <Section4 />
         <Section5 />

@@ -1,0 +1,17 @@
+.about{
+    background: #fafbfc;
+    height: 50vh;
+    text-align:center;
+    padding: 0px 200px;
+    display:grid;
+    align-content: center;
+
+}
+.about-title{
+padding-top: 30px;
+}
+
+.about-description{
+    height: 30vh;
+    padding-top: 30px;
+}
