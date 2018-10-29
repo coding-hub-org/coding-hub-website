@@ -7,7 +7,8 @@ class Footer extends Component {
       <div className="footer-container">
         <div className="footer-row-1">
           <div className="footer-logo">
-            PSU Coders <span className="greenDot">.</span>
+            PSU Coders
+            <span className="greenDot">.</span>
           </div>
           <div className="footer-navigation">
             <div className="footer-navigation-item">
