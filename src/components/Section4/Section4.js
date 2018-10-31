@@ -107,10 +107,12 @@ class Section4 extends Component {
 
   render() {
     return (
-      <div className={this.state.classFile}>
-        <div className="title-div">
-          <Title title="PROJECTS" />
-        </div>
+      //this.state.classFile
+
+      <div className="Section4">
+        {/* <div className="title-div"> */}
+        <Title title="PROJECTS" />
+        {/* </div> */}
         <div className="projects">
           <ProjectCardList projects={this.state.projects} />
         </div>

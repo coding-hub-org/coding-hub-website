@@ -9,9 +9,7 @@ class Section3 extends Component {
     return (
       <div className="Section3">
         <div className="Section3-Part1">
-          <div className="title-div">
-            <Title title="WHAT WE DO?" />
-          </div>
+          <Title title="WHAT WE DO?" />
           <div className="image-dv">
             <img src={DeviceImage} width="1000px" alt="" />
           </div>
