@@ -1,6 +1,7 @@
 .Section2 {
-  /* padding: 0px 100px; */
+  padding: 100px;
   background: #fafbfc;
+  margin: auto;
 }
 
 /* @media (max-width: 550px) {

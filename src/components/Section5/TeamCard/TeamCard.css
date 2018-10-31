@@ -62,7 +62,7 @@
   font-size: 15px;
 }
 
-.fab.fa-linkedin-in {
+.teamCardLinkedIn > a > i {
   padding: 10px;
   color: #fff;
   font-size: 20px;
@@ -78,7 +78,7 @@
   box-shadow: 0px 1px 1px;
 }
 
-.plusTeamCard a {
+.plusTeamCard {
   color: white;
   text-decoration: none;
   font-size: 26px;
@@ -91,7 +91,7 @@
   align-items: center;
 }
 
-.linkedInCircle {
+.teamCardLinkedIn {
   display: grid;
   background-color: #0e76a8;
   border-radius: 20%;
@@ -122,5 +122,187 @@
   }
   .teamCardTitle {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 800px), (max-width: 500px) {
+  .teamCardName {
+    font-size: 18px;
+  }
+  .teamCardTitle {
+    font-size: 14px;
+  }
+  .teamCardSymbol {
+    color: var(--main-text-color);
+    font-size: 24px;
+  }
+  .teamCardImage > img {
+    width: 200px;
+  }
+  .teamCardWebsite,
+  .teamCardLinkedIn,
+  .teamCardMessage {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  .teamCardWebsite > a > i {
+    font-size: 12px;
+  }
+  .teamCardLinkedIn > a > i {
+    font-size: 14px;
+  }
+  .plusTeamCard {
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+}
+@media (max-width: 750px) {
+  .teamCardWebsite {
+    justify-self: center;
+    height: 36px;
+    width: 36px;
+    background-color: #ff5661;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px;
+  }
+
+  .teamCardWebsite > a > i {
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .teamCardLinkedIn > a > i {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .teamCardMessage {
+    height: 36px;
+    justify-self: center;
+    width: 36px;
+    text-align: center;
+    background: blue;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px;
+  }
+
+  .plusTeamCard {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+  .plusTeamCard {
+    display: grid;
+    height: 36px;
+    width: 36px;
+    align-items: center;
+  }
+
+  .teamCardLinkedIn {
+    display: grid;
+    width: auto;
+    background-color: #0e76a8;
+    border-radius: 20%;
+    height: 38px;
+  }
+
+  .teamCardImage > img {
+    width: 230px;
+  }
+
+  .teamCardName {
+    font-size: 22px;
+  }
+
+  .teamCardTitle {
+    font-size: 16px;
+  }
+  .teamCardSymbol {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .teamCardName {
+    font-size: 18px;
+  }
+  .teamCardTitle {
+    font-size: 14px;
+  }
+  .teamCardSymbol {
+    color: var(--main-text-color);
+    font-size: 24px;
+  }
+  .teamCardImage > img {
+    width: 200px;
+  }
+  .teamCardWebsite,
+  .teamCardLinkedIn,
+  .teamCardMessage {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  .teamCardWebsite > a > i {
+    font-size: 12px;
+  }
+  .teamCardLinkedIn > a > i {
+    font-size: 14px;
+  }
+  .plusTeamCard {
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .teamCardName {
+    font-size: 16px;
+  }
+  .teamCardTitle {
+    font-size: 12px;
+  }
+  .teamCardSymbol {
+    color: var(--main-text-color);
+    font-size: 20px;
+  }
+  .teamCardImage > img {
+    width: 170px;
+  }
+  .teamCardWebsite,
+  .teamCardLinkedIn,
+  .teamCardMessage {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+  }
+  .teamCardWebsite > a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .teamCardWebsite > a > i {
+    font-size: 10px;
+    /* padding: 5px; */
+  }
+  .teamCardLinkedIn > a > i {
+    font-size: 12px;
+  }
+  .plusTeamCard {
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;
   }
 }

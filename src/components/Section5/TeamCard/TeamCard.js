@@ -18,16 +18,14 @@ const teamCard = props => (
           </a>
         </div>
         <div className="teamCardLinkedIn">
-          <span className="linkedInCircle">
-            <a href={props.linkedIn}>
-              <i className="fab fa-linkedin-in" />
-            </a>
-          </span>
+          <a className="linkedInCircle" href={props.linkedIn}>
+            <i className="fab fa-linkedin-in" />
+          </a>
         </div>
         <div className="teamCardMessage">
-          <span className="plusTeamCard">
-            <a href="/">+ </a>
-          </span>
+          <a className="plusTeamCard" href="/">
+            +
+          </a>
         </div>
       </div>
     </div>

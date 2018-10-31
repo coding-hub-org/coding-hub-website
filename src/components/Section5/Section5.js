@@ -59,9 +59,7 @@ class Section5 extends Component {
   render() {
     return (
       <div className="Section5">
-        <div className="title-div">
-          <Title title="OUR TEAM" />
-        </div>
+        <Title title="OUR TEAM" />
         <div className="team-cardlist">
           <TeamCardList member={this.team} />
         </div>
