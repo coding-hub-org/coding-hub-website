@@ -2,3 +2,21 @@
   font-size: 50px;
   color: var(--main-text-color);
 }
+
+@media (max-width: 1000px) {
+  .title > h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title > h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title > h1 {
+    font-size: 26px;
+  }
+}

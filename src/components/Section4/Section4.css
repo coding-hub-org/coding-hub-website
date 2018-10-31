@@ -1,12 +1,10 @@
+/* * {
+  overflow: hidden;
+} */
 .Section4 {
-  height: 100vh;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  background: #fafbfc;
-  grid-template-rows: 1fr 1.5fr 1fr;
+  min-height: 100vh;
+  height: 100%;
 }
-
 .title-div {
   display: grid;
   justify-content: center;
@@ -15,4 +13,120 @@
 .projects {
   align-self: center;
   padding: 0 200px 50px 200px;
+  /* width: 100%; */
+}
+
+@media (max-width: 1650px) {
+  /* .cardsInner {
+    padding: 0 150px 50px 150px;
+  } */
+  .projects {
+    padding: 0 150px 50px 150px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .projects {
+    padding: 0 100px 50px 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 900px) {
+  .Section4 {
+    padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .projects {
+    padding: 0 50px 50px 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .projects {
+    padding: 0 100px 50px 100px;
+  }
+  .Section4 {
+    /* height: auto !important; */
+    /* grid-template-rows: 1fr 3fr 2fr !important; */
+    /* padding-bottom: 400px; */
+  }
+}
+
+@media (max-width: 650px) {
+  .projects {
+    padding: 0 100px 50px 100px;
+  }
+}
+
+.Section4-G1100-B {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1fr;
+  background: #fafbfc;
+}
+
+.Section4-G1100-NB {
+  display: grid;
+  grid-template-rows: 0.7fr 2fr;
+  /* padding: 50px; */
+  background: #fafbfc;
+}
+
+.Section4-L1100-NB {
+  display: grid;
+  grid-template-rows: 0.5fr 2fr;
+  padding-bottom: 50px;
+  background: #fafbfc;
+}
+
+.Section4-L1100-B {
+  display: grid;
+  grid-template-rows: 0.3fr 1.5fr 0.3fr;
+  background: #fafbfc;
+}
+
+.Section4-L1000-B {
+  display: grid;
+  grid-template-rows: 0.3fr 2fr;
+  background: #fafbfc;
+}
+
+@media (max-width: 750px) {
+  .Section4-L1100-NB {
+    grid-template-rows: 0.4fr 2fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .Section4-L1100-NB {
+    grid-template-rows: 200px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 0 50px 50px 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .projects {
+    padding: 0 50px 50px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Section4-L1100-NB {
+    grid-template-rows: 180px auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .Section4-L1100-NB {
+    grid-template-rows: 180px auto;
+  }
 }

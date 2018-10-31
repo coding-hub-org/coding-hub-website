@@ -1,6 +1,5 @@
 import React from "react";
 import "./CardDuties.css";
-import ImageView from "../ImageView/ImageView";
 // import testImage from "../../main_assets/images/development.svg";
 
 const CardDuties = props => (
@@ -8,7 +7,7 @@ const CardDuties = props => (
     <div className="cardDutiesInnerDiv">
       <div className="card-duties-image">
         {/* {props.image} */}
-        <ImageView img={props.image} sizeInPixels="60" />
+        <img src={props.image} width="60" alt="" />
       </div>
       <div className="card-duties-title">{props.title}</div>
       <div className="card-duties-description">{props.description}</div>

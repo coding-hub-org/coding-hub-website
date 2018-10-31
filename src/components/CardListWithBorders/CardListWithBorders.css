@@ -4,31 +4,152 @@
   padding: 0px 400px;
 }
 
-#Prototyping {
+#card1 {
   border-right: 1px solid var(--light-color);
   border-bottom: 1px solid var(--light-color);
   padding: 80px 30px 30px 30px;
 }
-#Branding {
+#card2 {
   border-right: 1px solid var(--light-color);
   border-bottom: 1px solid var(--light-color);
   padding: 80px 30px 30px 30px;
 }
-#Development {
+#card3 {
   border-bottom: 1px solid var(--light-color);
   padding: 80px 30px 30px 30px;
 }
-#Strategy {
+#card4 {
   padding-top: 40px;
   border-right: 1px solid var(--light-color);
   padding: 80px 30px 30px 30px;
 }
-#Analytic {
+#card5 {
   border-right: 1px solid var(--light-color);
   padding: 80px 20px 30px 30px;
 }
-#Testing {
-  /* border-right: 1px solid gray;
-  border-bottom: 1px solid gray; */
+#card6 {
   padding: 80px 30px 30px 30px;
+}
+
+@media (max-width: 1700px) {
+  .cards {
+    padding: 0px 300px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .cards {
+    padding: 0px 200px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .cards {
+    padding: 0px 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cards {
+    padding: 0px 150px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #card1 {
+    border-right: 1px solid var(--light-color);
+    border-bottom: 1px solid var(--light-color);
+  }
+  #card2 {
+    border-right: 0px;
+    border-bottom: 1px solid var(--light-color);
+  }
+  #card3 {
+    border-right: 1px solid var(--light-color);
+    border-bottom: 1px solid var(--light-color);
+  }
+  #card4 {
+    border-bottom: 1px solid var(--light-color);
+
+    border-right: 0px solid var(--light-color);
+  }
+  #card5 {
+    border-right: 1px solid var(--light-color);
+  }
+  #card6 {
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards {
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 650px) {
+  .cardsInner {
+    padding: 50px 15px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    padding: 0px 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .cardsInner {
+    padding: 30px 15px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #card1 {
+    border-right: 0px solid var(--light-color);
+    border-bottom: 0px solid var(--light-color);
+  }
+  #card2 {
+    border-bottom: 0px solid var(--light-color);
+  }
+  #card3 {
+    border-right: 0px;
+    border-bottom: 0px solid var(--light-color);
+  }
+  #card4 {
+    border-bottom: 0px solid var(--light-color);
+  }
+  #card5 {
+    border-right: 0px;
+    border-bottom: 0px solid var(--light-color);
+  }
+  #card6 {
+  }
+}
+
+@media (max-width: 400px) {
+  .cardsInner {
+    padding: 15px 15px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .cards {
+    padding: 25px;
+  }
 }

@@ -1,17 +1,29 @@
-.about{
-    background: #fafbfc;
-    height: 50vh;
-    text-align:center;
-    padding: 0px 200px;
-    display:grid;
-    align-content: center;
-
+.about {
+  background: #fafbfc;
+  height: 50vh;
+  text-align: center;
+  padding: 0px 200px;
+  display: grid;
+  align-content: center;
 }
-.about-title{
-padding-top: 30px;
+.about-title {
+  padding-top: 30px;
 }
 
-.about-description{
-    height: 30vh;
-    padding-top: 30px;
+.about-description {
+  height: 30vh;
+  padding-top: 30px;
+}
+
+@media (max-width: 1400px) {
+  .about {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding: 0px;
+    height: 40vh;
+  }
 }

@@ -35,3 +35,19 @@
 .btn:hover span {
   background: transparent;
 }
+
+@media (max-width: 550px) {
+  .btn {
+    font-size: 18px;
+    height: 70px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    font-size: 16px;
+    height: 65px;
+    width: 220px;
+  }
+}

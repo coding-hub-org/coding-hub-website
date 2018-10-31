@@ -9,7 +9,7 @@ class Button2 extends Component {
   };
   render() {
     return (
-      <a className="btn" href="#" onClick={this.handleClick}>
+      <a className="btn" href="/" onClick={this.handleClick}>
         <span>ALL PROJECTS</span>
       </a>
     );

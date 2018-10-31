@@ -13,31 +13,31 @@ class Footer extends Component {
           <div className="footer-navigation">
             <div className="footer-navigation-item">
               {" "}
-              <a href="">HOME</a>{" "}
+              <a href="/">HOME</a>{" "}
             </div>
             <div className="footer-navigation-item">
-              <a href="">BLOG</a>
+              <a href="/">BLOG</a>
             </div>
             <div className="footer-navigation-item">
-              <a href="">CONTACT</a>
+              <a href="/">CONTACT</a>
             </div>
             <div className="footer-navigation-item">
-              <a href="">ABOUT</a>
+              <a href="/">ABOUT</a>
             </div>
           </div>
           <div className="footer-social">
             <div className="footer-social-item">
-              <a href="">
+              <a href="/">
                 <i className="fab fa-instagram" />
               </a>
             </div>
             <div className="footer-social-item">
-              <a href="">
+              <a href="/">
                 <i className="fab fa-twitter" />
               </a>
             </div>
             <div className="footer-social-item">
-              <a href="">
+              <a href="/">
                 <i className="fab fa-facebook" />
               </a>
             </div>
@@ -52,10 +52,10 @@ class Footer extends Component {
           </div>
           <div className="terms-and-privacy">
             <div className="footer-privacy-policy">
-              <a href="">PRIVACY POLICY</a>
+              <a href="/">PRIVACY POLICY</a>
             </div>
             <div className="footer-terms-of-service">
-              <a href="">TERMS OF SERVICE</a>
+              <a href="/">TERMS OF SERVICE</a>
             </div>
           </div>
         </div>

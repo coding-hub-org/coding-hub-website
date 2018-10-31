@@ -26,7 +26,7 @@ const teamCard = props => (
         </div>
         <div className="teamCardMessage">
           <span className="plusTeamCard">
-            <a href="">+ </a>
+            <a href="/">+ </a>
           </span>
         </div>
       </div>

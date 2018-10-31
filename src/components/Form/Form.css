@@ -5,9 +5,14 @@
 
 #message-input {
   text-align: left;
-  width: 100%;
   height: 35vh;
+  font-size: 18px;
+  resize: none;
   vertical-align: text-top;
+  padding: 30px;
+  border: 1px solid var(--light-color);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-form-col-1 {
@@ -19,10 +24,35 @@
   padding: 0px 50px 20px 0px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 20px;
+  grid-row-gap: 30px;
 }
 
 .contact-form-col-1-row-2 {
   display: grid;
   align-content: center;
+  grid-row-gap: 20px;
+}
+
+.meeting-details-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.meeting-details-value {
+  font-size: 20px;
+  padding-left: 15px;
+  font-weight: normal;
+}
+
+.contact-form-col-1-row-1 > input {
+  resize: none;
+  font-size: 18px;
+  padding-left: 30px;
+  border: 1px solid var(--light-color);
+}
+
+.button {
+  display: grid;
+  justify-content: flex-end;
+  padding-top: 5vh;
 }

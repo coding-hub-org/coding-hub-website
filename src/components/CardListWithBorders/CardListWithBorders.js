@@ -4,36 +4,42 @@ import CardDuties from "../CardDuties/CardDuties";
 
 let cards = [
   {
+    id: 1,
     image: require("../../main_assets/images/development.svg"),
     title: "Prototyping",
     description:
       "Lorem ipsum Consequuntur dolor autem explicabo totam sit voluptates rerum exercitationem ad cum?"
   },
   {
+    id: 2,
     image: require("../../main_assets/images/development.svg"),
     title: "Branding",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequunturrum exercitationem ad cum?"
   },
   {
+    id: 3,
     image: require("../../main_assets/images/development.svg"),
     title: "Development",
     description:
       "Consequuntur dolor autem explicus dolor expedita ex labore quos ipsam perferendis itaque fugit."
   },
   {
+    id: 4,
     image: require("../../main_assets/images/development.svg"),
     title: "Strategy",
     description:
       "Lorem ipsum dolor sit amet rerum exercitationem ad cum? Faciliabore quos ipsam perferendis itaque fugit."
   },
   {
+    id: 5,
     image: require("../../main_assets/images/development.svg"),
     title: "Analytic",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ad cum?ore quos ipsam perferendis itaque fugit."
   },
   {
+    id: 6,
     image: require("../../main_assets/images/development.svg"),
     title: "Testing",
     description:
@@ -43,7 +49,7 @@ let cards = [
 const cardListWithBorders = props => (
   <div className="cards">
     {cards.map(card => (
-      <div className="cardsInner" key={card.title} id={card.title}>
+      <div className="cardsInner" key={card.title} id={"card" + card.id}>
         <CardDuties {...card} />
       </div>
     ))}

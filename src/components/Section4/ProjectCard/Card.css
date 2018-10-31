@@ -1,8 +1,7 @@
 .card {
   display: grid;
   text-align: center;
-  padding: 20px;
-  width: 400px;
+  /* width: 90%; */
 }
 
 .plusButton {
@@ -33,4 +32,50 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+
+@media (max-width: 1300px) {
+  .cardTitle {
+    font-size: 24px;
+  }
+  .cardDescription {
+    font-size: 17px;
+  }
+  .plusButton a {
+    font-size: 28px;
+  }
+  .plus {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardTitle {
+    font-size: 22px;
+  }
+  .cardDescription {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .cardTitle {
+    font-size: 19px;
+    padding: 15px;
+  }
+
+  .cardDescription {
+    font-size: 14px;
+  }
+  .cardImage > img {
+    width: 40px;
+  }
+  .plus {
+    width: 30px;
+    height: 30px;
+  }
+  .plusButton a {
+    font-size: 25px;
+  }
 }

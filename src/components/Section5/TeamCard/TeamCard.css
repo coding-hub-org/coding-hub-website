@@ -1,7 +1,7 @@
 .teamCard {
   display: grid;
   padding: 25px 40px;
-  width: 350px;
+  width: auto;
   border: 2px solid var(--light-color);
 }
 
@@ -29,7 +29,6 @@
 
 .teamCardTitle {
   color: var(--main-text-color);
-  vertical-align: center;
   display: grid;
   align-content: center;
   /* font-size: 18px; */
@@ -97,4 +96,31 @@
   background-color: #0e76a8;
   border-radius: 20%;
   height: 38px;
+}
+
+@media (max-width: 1650px) {
+  .teamCard {
+    padding: 20px 25px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .teamCardImage img {
+    width: 230px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .teamCardImage img {
+    width: 230px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .teamCardName {
+    font-size: 20px;
+  }
+  .teamCardTitle {
+    font-size: 16px;
+  }
 }

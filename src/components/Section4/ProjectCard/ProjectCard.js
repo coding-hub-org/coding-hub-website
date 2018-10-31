@@ -11,7 +11,7 @@ const card = props => (
     <div className="plusButton">
       {/* <i>+</i> */}
       <span className="plus">
-        <a href="">+ </a>
+        <a href="/">+ </a>
       </span>
     </div>
   </div>

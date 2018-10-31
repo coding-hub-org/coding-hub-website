@@ -30,7 +30,8 @@ class Section4 extends Component {
           description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo fugit facilis deserunt esse consequuntur facere earum minima exercitationem dolores, molestiae totam voluptate expedita, harum doloremque at optio in est."
         }
-      ]
+      ],
+      classFile: "Section4-G1100-B"
     };
   }
 
@@ -51,11 +52,62 @@ class Section4 extends Component {
         }
       ])
     }));
+
+    if (window.innerWidth > 1100) {
+      console.log("greater than 1100");
+      this.setState({
+        classFile: "Section4-G1100-NB"
+      });
+    } else {
+      console.log("less than 1100");
+      this.setState({
+        classFile: "Section4-L1100-NB"
+      });
+    }
   };
+
+  updateDimensions = () => {
+    if (this.state.projects.length === 3) {
+      //BUTTON STILL THERE
+      if (window.innerWidth > 1100) {
+        this.setState({
+          classFile: "Section4-G1100-B"
+        });
+      } else if (window.innerWidth <= 1100) {
+        this.setState({
+          classFile: "Section4-L1100-B"
+        });
+      }
+    } else {
+      // NO BUTTON ANYMORE
+      if (window.innerWidth > 1100) {
+        this.setState({
+          classFile: "Section4-G1100-NB"
+        });
+      } else {
+        this.setState({
+          classFile: "Section4-L1100-NB"
+        });
+      }
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+    if (window.innerWidth > 1100) {
+      this.setState({
+        classFile: "Section4-G1100-B"
+      });
+    } else {
+      this.setState({
+        classFile: "Section4-L1100-B"
+      });
+    }
+  }
 
   render() {
     return (
-      <div className="Section4">
+      <div className={this.state.classFile}>
         <div className="title-div">
           <Title title="PROJECTS" />
         </div>
