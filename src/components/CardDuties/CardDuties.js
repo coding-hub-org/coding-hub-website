@@ -7,7 +7,7 @@ const CardDuties = props => (
     <div className="cardDutiesInnerDiv">
       <div className="card-duties-image">
         {/* {props.image} */}
-        <img src={props.image} width="60" alt="" />
+        <img src={props.image} width="40" alt="" />
       </div>
       <div className="card-duties-title">{props.title}</div>
       <div className="card-duties-description">{props.description}</div>

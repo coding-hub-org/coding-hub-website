@@ -5,7 +5,7 @@ import CardDuties from "../CardDuties/CardDuties";
 let cards = [
   {
     id: 1,
-    image: require("../../main_assets/images/development.svg"),
+    image: require("../../main_assets/images/prototyping.svg"),
     title: "Prototyping",
     description:
       "Lorem ipsum Consequuntur dolor autem explicabo totam sit voluptates rerum exercitationem ad cum?"
@@ -27,20 +27,20 @@ let cards = [
   {
     id: 4,
     image: require("../../main_assets/images/development.svg"),
-    title: "Strategy",
+    title: "Training",
     description:
       "Lorem ipsum dolor sit amet rerum exercitationem ad cum? Faciliabore quos ipsam perferendis itaque fugit."
   },
   {
     id: 5,
-    image: require("../../main_assets/images/development.svg"),
+    image: require("../../main_assets/images/analytic.svg"),
     title: "Analytic",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ad cum?ore quos ipsam perferendis itaque fugit."
   },
   {
     id: 6,
-    image: require("../../main_assets/images/development.svg"),
+    image: require("../../main_assets/images/testing.svg"),
     title: "Testing",
     description:
       "Lorem ipsum dolor sit rerum exercitationem quos ipsam perferendis itaque fugit."
