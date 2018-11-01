@@ -103,6 +103,20 @@
   #message-input {
     padding: 20px;
   }
+  .meeting-room,
+  .meeting-time,
+  .meeting-day {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .meeting-details-title {
+    font-size: 18px;
+  }
+  .meeting-details-value {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 380px) {
