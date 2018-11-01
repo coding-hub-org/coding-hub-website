@@ -5,17 +5,17 @@
   margin: auto;
 }
 
-@media (max-width: 1400px) {
-  .about {
-    padding: 100px;
-  }
-}
-
 @media (max-width: 1000px) {
   .about {
-    padding: 50px;
+    width: 90%;
   }
   .title {
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    width: 100%;
   }
 }

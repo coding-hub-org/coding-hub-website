@@ -1,6 +1,8 @@
 .contact-form {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
+  grid-gap: 50px;
+  padding: 0px 100px;
 }
 
 #message-input {
@@ -21,7 +23,7 @@
 }
 
 .contact-form-col-1-row-1 {
-  padding: 0px 50px 20px 0px;
+  padding: 0px 0px 20px 0px;
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 30px;
@@ -35,13 +37,18 @@
 
 .meeting-details-title {
   font-size: 22px;
+  padding-right: 5px;
   font-weight: 600;
+  display: inline-block;
 }
 
 .meeting-details-value {
+  display: inline-block;
+
   font-size: 20px;
-  padding-left: 15px;
+  /* line-height: 30px; */
   font-weight: normal;
+  word-wrap: break-word;
 }
 
 .contact-form-col-1-row-1 > input {
@@ -54,5 +61,56 @@
 .button {
   display: grid;
   justify-content: flex-end;
-  padding-top: 5vh;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+
+@media (max-width: 1400px) {
+  .contact-form {
+    padding: 0px;
+  }
+  .button {
+    padding: 50px 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-form-col-1-row-1 {
+    grid-area: form-row-1;
+  }
+
+  .contact-form-col-1-row-2 {
+    grid-area: form-row-2;
+  }
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-col-1 {
+    grid-template-areas:
+      "form-row-2"
+      "form-row-1";
+    grid-row-gap: 50px;
+  }
+
+  .contact-form-col-1-row-1 {
+    padding: 0px;
+    grid-row-gap: 10px;
+  }
+
+  .contact-form-col-1-row-1 > input {
+    padding: 20px;
+  }
+  #message-input {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  #message-input {
+    font-size: 14px;
+  }
+
+  .contact-form-col-1-row-1 > input {
+    font-size: 14px;
+  }
 }

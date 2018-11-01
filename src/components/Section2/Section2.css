@@ -4,8 +4,8 @@
   margin: auto;
 }
 
-/* @media (max-width: 550px) {
+@media (max-width: 700px) {
   .Section2 {
-    padding: 0px 50px;
+    padding: 100px 50px;
   }
-} */
+}

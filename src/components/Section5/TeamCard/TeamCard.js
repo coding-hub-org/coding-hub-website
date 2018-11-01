@@ -13,9 +13,9 @@ const teamCard = props => (
       <div className="teamCardTitle">{props.title}</div>
       <div className="links">
         <div className="teamCardWebsite">
-          <a href={props.website}>
-            <i className="fas fa-pen" />
-          </a>
+          {/* <a href={props.website}> */}
+          <i className="fas fa-pen" />
+          {/* </a> */}
         </div>
         <div className="teamCardLinkedIn">
           <a className="linkedInCircle" href={props.linkedIn}>

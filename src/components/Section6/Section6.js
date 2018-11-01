@@ -8,9 +8,7 @@ class Section6 extends Component {
     return (
       <div className="Section6">
         <div className="contactDiv">
-          <div className="keith-div">
-            <About title="CONTACT US" description={this.props.description} />
-          </div>
+          <About title="CONTACT US" description={this.props.description} />
         </div>
         <Form />
       </div>
