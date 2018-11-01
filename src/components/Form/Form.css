@@ -108,6 +108,9 @@
   .meeting-day {
     text-align: center;
   }
+  .button {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
