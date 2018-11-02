@@ -1,6 +1,6 @@
 import React from "react";
 import "./SideDrawer.css";
-import Button from "../../Button/Button";
+import Button2 from "../../Button2/Button2";
 
 const sideDrawer = props => {
   let drawerClasses = "side-drawer";
@@ -23,7 +23,7 @@ const sideDrawer = props => {
         <li>
           {props.buttonText !== "" && (
             <div className="hireMeButtonSideDrawer">
-              <Button text={props.buttonText} />
+              <Button2 text={props.buttonText} />
             </div>
           )}
         </li>

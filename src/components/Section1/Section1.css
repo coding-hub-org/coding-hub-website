@@ -1,6 +1,6 @@
 .section-1 {
-  min-height: 100vh;
-  /* text-align: center; */
+  height: 100vh;
+  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -13,10 +13,9 @@
 }
 
 .firstPageImage > img {
-  vertical-align: middle;
-  margin: auto;
-  /* top: 50%;
-  left: 50%; */
+  /* margin: auto; */
+  /* margin-top: -50px; */
+  /* padding-top: calc((var(--height) * -1) / 2); */
 }
 
 @media (max-width: 1200px) {
@@ -49,7 +48,7 @@
   }
 }
 
-@media (max-height: 700px) {
+/* @media (max-height: 700px) {
   .firstPageImage > img {
     padding-top: 100px;
   }
@@ -62,4 +61,4 @@
   .section-1 {
     min-height: 100%;
   }
-}
+} */
