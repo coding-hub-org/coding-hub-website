@@ -63,11 +63,11 @@
   }
 }
 
-@media (max-height: 450px) {
+/* @media (max-height: 450px) {
   .side-drawer.open {
     padding-top: 0px;
   }
   .side-drawer li {
     margin: 0.5rem;
   }
-}
+} */

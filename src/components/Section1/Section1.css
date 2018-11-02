@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-height: 700px) {
+/* @media (max-height: 700px) {
   .firstPageImage > img {
     padding-top: 100px;
   }
@@ -62,4 +62,4 @@
   .section-1 {
     min-height: 100%;
   }
-}
+} */
