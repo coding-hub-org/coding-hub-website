@@ -10,7 +10,9 @@
   left: 0;
   position: absolute;
   display: flex;
-  background: transparent;
+  /* background: rgb(255, 255, 255, 0.7); */
+  /* padding-bottom: 20px; */
+  /* border-bottom: 1px solid red; */
   height: var(--height);
 }
 
@@ -21,7 +23,8 @@
 #item1,
 #item2,
 #item3,
-#item4 {
+#item4,
+#item5 {
   color: var(--main-text-color);
   position: relative;
   text-decoration: none;
@@ -32,7 +35,8 @@
 } */
 
 #item3::before,
-#item4::before {
+#item4::before,
+#item5::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -48,7 +52,8 @@
 }
 
 #item3:hover:before,
-#item4:hover:before {
+#item4:hover:before,
+#item5:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -129,13 +134,13 @@
   text-decoration: none;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
   .hireMeButton {
     display: none;
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
   .toolbar_navigation-items {
     display: none;
   }
@@ -144,7 +149,7 @@
   }
 }
 
-@media (min-width: 1301px) {
+@media (min-width: 1601px) {
   .toolbar_toggle-button {
     display: none;
   }

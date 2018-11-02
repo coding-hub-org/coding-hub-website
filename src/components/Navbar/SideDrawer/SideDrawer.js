@@ -14,7 +14,7 @@ const sideDrawer = props => {
         {props.navItems.map(item => (
           <li key={item.id}>
             {" "}
-            <a href="/" id={"drawer_" + item.id}>
+            <a href={item.link} id={"drawer_" + item.id}>
               {item.value}
             </a>
           </li>

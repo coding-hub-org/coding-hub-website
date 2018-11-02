@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Section5.css";
 import Title from "../Title/Title";
 import TeamCardList from "./TeamCardList/TeamCardList";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class Section5 extends Component {
   team = [
@@ -58,12 +59,14 @@ class Section5 extends Component {
   ];
   render() {
     return (
-      <div className="Section5">
-        <Title title="OUR TEAM" />
-        <div className="team-cardlist">
-          <TeamCardList member={this.team} />
+      <ScrollableAnchor id={"OurTeam"}>
+        <div className="Section5">
+          <Title title="OUR TEAM" />
+          <div className="team-cardlist">
+            <TeamCardList member={this.team} />
+          </div>
         </div>
-      </div>
+      </ScrollableAnchor>
     );
   }
 }

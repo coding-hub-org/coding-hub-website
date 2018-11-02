@@ -3,6 +3,7 @@ import "./Section4.css";
 import Title from "../Title/Title";
 import ProjectCardList from "./ProjectCardList/ProjectCardList";
 import Button2 from "../Button2/Button2";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class Section4 extends Component {
   constructor(props) {
@@ -56,20 +57,21 @@ class Section4 extends Component {
   render() {
     return (
       //this.state.classFile
-
-      <div className="Section4">
-        {/* <div className="title-div"> */}
-        <Title title="PROJECTS" />
-        {/* </div> */}
-        <div className="projects">
-          <ProjectCardList projects={this.state.projects} />
-        </div>
-        {this.state.projects.length === 3 && (
-          <div className="all-projects-button">
-            <Button2 onClicked={this.viewAllProjects} />
+      <ScrollableAnchor id={"Projects"}>
+        <div className="Section4">
+          {/* <div className="title-div"> */}
+          <Title title="PROJECTS" />
+          {/* </div> */}
+          <div className="projects">
+            <ProjectCardList projects={this.state.projects} />
           </div>
-        )}
-      </div>
+          {this.state.projects.length === 3 && (
+            <div className="all-projects-button">
+              <Button2 onClicked={this.viewAllProjects} />
+            </div>
+          )}
+        </div>
+      </ScrollableAnchor>
     );
   }
 }

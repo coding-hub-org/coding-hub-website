@@ -21,14 +21,14 @@ const toolbar = props => (
           {props.navItems.map(item => (
             <li key={item.id}>
               {" "}
-              <a href="/" id={item.id}>
+              <a href={item.link} id={item.id}>
                 {item.value}
               </a>
             </li>
           ))}
           {props.buttonText !== "" && (
             <div className="hireMeButton">
-              <Button text={props.buttonText} />
+              <Button text={props.buttonText} link="#Section6" />
             </div>
           )}
         </ul>
