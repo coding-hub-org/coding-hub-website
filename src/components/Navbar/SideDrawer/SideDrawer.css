@@ -62,3 +62,12 @@
     display: none;
   }
 }
+
+@media (max-height: 700px) {
+  .side-drawer.open {
+    padding-top: 0px;
+  }
+  .side-drawer li {
+    margin: 0.5rem;
+  }
+}
