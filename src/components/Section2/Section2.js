@@ -4,7 +4,7 @@ import About from "../About/About";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 let aboutUs =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, asperiores cumque quam debitis quaerat optio molestias ab consectetur aliquam incidunt! Dolor quaerat doloribus accusamus repellat hic, impedit voluptas officia debitis!";
+  "Coding Hub was co-founded in 2018 to develop mobile and web applications to provide services to students on the SUNY Plattsburgh campus. The main mission of the club is to make the lives of students easier with the use of software products.";
 
 const section2 = props => (
   <ScrollableAnchor id={"About"}>
