@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 450px) {
   .side-drawer.open {
     padding-top: 0px;
   }
