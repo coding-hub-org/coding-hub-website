@@ -64,7 +64,7 @@ class Section4 extends Component {
           </div>
           {this.state.projects.length === 3 && (
             <div className="all-projects-button">
-              <Button2 onClicked={this.viewAllProjects} />
+              <Button2 text="All Projects" onClicked={this.viewAllProjects} />
             </div>
           )}
         </div>

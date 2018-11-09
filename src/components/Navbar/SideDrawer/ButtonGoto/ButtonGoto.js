@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Button2.css";
+import "./ButtonGoto.css";
 
-class Button2 extends Component {
+class ButtonGoto extends Component {
   handleClick = event => {
     event.preventDefault();
     console.log("clicked");
@@ -10,10 +10,10 @@ class Button2 extends Component {
 
   render() {
     return (
-      <a className="btn" href="#ContactUs" onClick={this.handleClick}>
+      <a className="btn" href="#ContactUs">
         <span>{this.props.text}</span>
       </a>
     );
   }
 }
-export default Button2;
+export default ButtonGoto;

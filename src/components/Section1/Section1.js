@@ -6,7 +6,7 @@ import LogoImage from "../../main_assets/images/coding_hub_ic.svg";
 import "./Section1.css";
 
 const section1 = props => (
-  <div className="section-1" id="#Home">
+  <div className="section-1" id="Home">
     <Navbar />
 
     <div className="firstPageImage">
