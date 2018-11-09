@@ -6,43 +6,40 @@ import Button2 from "../Button2/Button2";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 class Section4 extends Component {
+  /////////////*****//////////////*****//////////////*****//////////////*****//////////////*****//////////////*****//////////////*****//////////////*****/
   constructor(props) {
-    // Required step: always call the parent class' constructor
     super(props);
-
-    // Set the state directly. Use props if necessary.
     this.state = {
       projects: [
         {
-          image: require("../../main_assets/images/development.svg"),
+          image: require("../../main_assets/images/ic_shuttler.png"),
           title: "Shuttler",
           description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo fugit facilis deserunt esse consequuntur facere earum minima exercitationem dolores, molestiae totam voluptate expedita, harum doloremque at optio in est."
+            "This application is developed to help hundreds of students on campus to track the location of the campus shuttle. It helps save student time by notifying them exactly when the shuttle reaches the location they specified in their preferences."
         },
         {
           image: require("../../main_assets/images/development.svg"),
           title: "Housing Locator",
           description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo fugit facilis deserunt esse consequuntur facere earum minima exercitationem dolores, molestiae totam voluptate expedita, harum doloremque at optio in est."
+            "This application is aimed to help students on and off campus to find housing. Instead of personally going to talk to individual house owners or resident halls, they can filter housing based on their preferences simplifying the process of finding a place to live."
         },
         {
           image: require("../../main_assets/images/development.svg"),
-          title: "ArkAngel",
+          title: "Club websites",
           description:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo fugit facilis deserunt esse consequuntur facere earum minima exercitationem dolores, molestiae totam voluptate expedita, harum doloremque at optio in est."
+            "These are the websites that we plan to make for various clubs in our campus. This allows club to have a personal space for posting notices and advertise their events to their members."
         }
       ]
     };
   }
-
+  /////////////*****//////////////*****//////////////*****//////////////*****//////////////*****//////////////*****//////////////*****/
   viewAllProjects = data => {
     this.setState(prevState => ({
       projects: prevState.projects.concat([
         {
           image: require("../../main_assets/images/development.svg"),
-          title: "Club websites",
-          description:
-            "These are the websites that we made for various clubs in our campus. Some include the Oratory society and the hoola hoop club."
+          title: "ArkAngel",
+          description: "The project plan is still in progress."
         },
         {
           image: require("../../main_assets/images/development.svg"),

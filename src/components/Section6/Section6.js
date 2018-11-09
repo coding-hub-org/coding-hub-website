@@ -6,7 +6,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 class Section6 extends Component {
   contactUs =
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quasi porro vero fugit dolore, error praesentium dolores quis ex nostrum quae totam sint, maiores qui perferendis corporis consequuntur rerum. Nam?";
+    "Please feel free to drop a message if you want to talk about business opportunities. Coding hub is a non-profit club on campus aimed to help students by providing various software solutions including personal portfolio websites, club websites, mobile applicaitons etc.";
 
   render() {
     return (

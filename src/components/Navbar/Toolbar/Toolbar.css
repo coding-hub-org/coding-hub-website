@@ -125,12 +125,18 @@
   display: flex;
 }
 
+.toolbar_navigation-items ul li {
+  /* display: flex; */
+  /* align-content: center; */
+}
+
 .toolbar_navigation-items li {
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 .toolbar_navigation-items a {
   font-size: 22px;
+  margin: auto 0;
   text-decoration: none;
 }
 
