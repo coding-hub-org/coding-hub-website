@@ -18,7 +18,7 @@ class Section4 extends Component {
             "This application is developed to help hundreds of students on campus to track the location of the campus shuttle. It helps save student time by notifying them exactly when the shuttle reaches the location they specified in their preferences."
         },
         {
-          image: require("../../main_assets/images/development.svg"),
+          image: require("../../main_assets/images/housing_locator.png"),
           title: "Housing Locator",
           description:
             "This application is aimed to help students on and off campus to find housing. Instead of personally going to talk to individual house owners or resident halls, they can filter housing based on their preferences simplifying the process of finding a place to live."
@@ -42,7 +42,7 @@ class Section4 extends Component {
           description: "The project plan is still in progress."
         },
         {
-          image: require("../../main_assets/images/development.svg"),
+          image: require("../../main_assets/images/rate_my_tutor.png"),
           title: "Rate my tutor",
           description:
             "This website allows users to rate their tutors from the Learning center of our campus. This allows people to find better tutors for a better life."
