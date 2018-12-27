@@ -1,7 +1,7 @@
 import React from "react";
 import "./Toolbar.css";
 import Button from "../../Button/Button";
-import logo from "./Assets/psuc_ic@2x.png";
+import logo from "../../../main_assets/images/coding_hub_nav.svg";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
 const toolbar = props => (
@@ -21,14 +21,14 @@ const toolbar = props => (
           {props.navItems.map(item => (
             <li key={item.id}>
               {" "}
-              <a href="/" id={item.id}>
+              <a href={item.link} id={item.id}>
                 {item.value}
               </a>
             </li>
           ))}
           {props.buttonText !== "" && (
             <div className="hireMeButton">
-              <Button text={props.buttonText} />
+              <Button text={props.buttonText} link="#Section6" />
             </div>
           )}
         </ul>

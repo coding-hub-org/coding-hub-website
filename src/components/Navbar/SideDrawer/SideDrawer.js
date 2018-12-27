@@ -1,6 +1,8 @@
 import React from "react";
 import "./SideDrawer.css";
-import Button from "../../Button/Button";
+import ButtonGoto from "./ButtonGoto/ButtonGoto";
+
+const contactUsLink = () => {};
 
 const sideDrawer = props => {
   let drawerClasses = "side-drawer";
@@ -14,7 +16,7 @@ const sideDrawer = props => {
         {props.navItems.map(item => (
           <li key={item.id}>
             {" "}
-            <a href="/" id={"drawer_" + item.id}>
+            <a href={item.link} id={"drawer_" + item.id}>
               {item.value}
             </a>
           </li>
@@ -23,7 +25,11 @@ const sideDrawer = props => {
         <li>
           {props.buttonText !== "" && (
             <div className="hireMeButtonSideDrawer">
-              <Button text={props.buttonText} />
+              <ButtonGoto
+                text={props.buttonText}
+                onClick={contactUsLink}
+                href="#ContactUs"
+              />
             </div>
           )}
         </li>

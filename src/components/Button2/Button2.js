@@ -7,10 +7,11 @@ class Button2 extends Component {
     console.log("clicked");
     this.props.onClicked("TEST");
   };
+
   render() {
     return (
-      <a className="btn" href="#" onClick={this.handleClick}>
-        <span>ALL PROJECTS</span>
+      <a className="btn" href="#ContactUs" onClick={this.handleClick}>
+        <span>{this.props.text}</span>
       </a>
     );
   }

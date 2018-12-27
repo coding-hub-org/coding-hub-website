@@ -6,17 +6,9 @@
   --height: 100px;
 }
 
-.section-1 {
-  text-align: center;
-  display: grid;
-  height: 100vh;
-}
-
-.landing-page-logo {
-  /* align-self: center; */
-  width: 100%;
-}
-
 * {
   /* border: 2px solid black; */
+}
+
+@media (max-height: 600px) {
 }

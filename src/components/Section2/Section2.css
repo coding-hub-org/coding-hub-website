@@ -1,0 +1,11 @@
+.Section2 {
+  padding: 100px;
+  background: #fafbfc;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .Section2 {
+    padding: 100px 50px;
+  }
+}

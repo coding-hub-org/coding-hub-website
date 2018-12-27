@@ -1,0 +1,21 @@
+.about {
+  background: #fafbfc;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .about {
+    width: 90%;
+  }
+  .title {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    width: 100%;
+  }
+}
