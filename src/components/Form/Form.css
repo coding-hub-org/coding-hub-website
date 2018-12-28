@@ -65,6 +65,20 @@
   padding-right: 100px;
 }
 
+form button {
+    width: 150px;
+    background: #fff;
+    padding: 13px 3px;
+    border: 1px solid var(--light-color);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form button i {
+    margin-right: 10px;
+}
+
+
 @media (max-width: 1400px) {
   .contact-form {
     padding: 0px;
