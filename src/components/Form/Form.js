@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import "./Form.css";
-import Button3 from "../Button3/Button3";
+import firebase from "firebase";
 
 class Form extends Component {
-
     state = {
         name: '',
         email: '',
         comment: ''
     }
-
 
     handleChange = (e) => {
         switch (e.target.className) {
@@ -37,18 +35,50 @@ class Form extends Component {
         e.preventDefault();
 
         const {name, email, comment} = this.state;
+         // Initialize Cloud Firestore through Firebase
         
+        const db = firebase.firestore();
+
+        // Disable deprecated features
+        db.settings({
+            timestampsInSnapshots: true
+        });
+
         this.setState({
             name: '',
             email: '',
             comment: '',
         });
-        e.target.reset();
+
+        db.collection("messages").add({
+            name: name,
+            email: email,
+            comment: comment
+        })
+        .then(function(docRef) {
+            console.log("Document written with ID: ", docRef.id);
+            document.getElementById("codinghub-form").reset();
+        })
+        .catch(function(error) {
+            console.error("Error adding document: ", error);
+        });
+
+
+        
+    }
+
+    componentDidMount() {
+        firebase.initializeApp({
+            apiKey: "AIzaSyBAtYBWlr0zOH6p1OpmplNjiapQs1Ftogc",
+            authDomain: "clubwebsite-fc981.firebaseapp.com",
+            projectId: "clubwebsite-fc981",
+        });
+        
     }
 
     render() {
         return (
-          <form onSubmit={this.handleSubmit}>
+          <form id={"codinghub-form"} onSubmit={this.handleSubmit}>
             <div className="contact-form">
               <div className="contact-form-col-1">
                 <div className="contact-form-col-1-row-1">
