@@ -13,17 +13,17 @@ const teamCard = props => (
       <div className="teamCardTitle">{props.title}</div>
       <div className="links">
         <div className="teamCardWebsite">
-          <a href={props.email} target="_blank">
+          <a href={props.email} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-pen" />
           </a>
         </div>
         <div className="teamCardLinkedIn">
-          <a className="linkedInCircle" href={props.linkedIn} target="_blank">
+          <a className="linkedInCircle" href={props.linkedIn} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin-in" />
           </a>
         </div>
         <div className="teamCardMessage">
-          <a className="plusTeamCard" href={props.website} target="_blank">
+          <a className="plusTeamCard" href={props.website} target="_blank" rel="noopener noreferrer">
             +
           </a>
         </div>

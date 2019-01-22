@@ -7,10 +7,5 @@ const button = props => (
   </a>
 );
 
-{
-  /* <a className="btn" href="/" onClick={this.handleClick}>
-        
-      </a> */
-}
 
 export default button;

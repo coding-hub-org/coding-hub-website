@@ -1,5 +1,4 @@
 import React from "react";
-import ImageView from "../ImageView/ImageView";
 import Navbar from "../Navbar/Navbar";
 
 import LogoImage from "../../main_assets/images/coding_hub_ic.svg";
