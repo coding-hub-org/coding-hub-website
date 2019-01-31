@@ -53,9 +53,9 @@ class Section5 extends Component {
     }, 
     {
       imageUrl: "https://avatars1.githubusercontent.com/u/19680448?s=400&v=4",
-      name: "Le Khanh Linh",
+      name: "Khanh Le",
       title: "SECRETARY",
-      email: "mailto:kle002@plattsburgh.edu",
+      email: "mailto:kle003@plattsburgh.edu",
       linkedIn: "",
       website: "web",
       details: "Coding and Design Lord of Plattsburgh"
