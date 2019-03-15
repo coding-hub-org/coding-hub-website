@@ -5,6 +5,7 @@
   grid-row-gap: 20px;
   background-image: linear-gradient(#FFFFFF,#FFF2F2);
   color: black;
+  grid-column: 1/4;
 }
 
 .footer-row-1 {
