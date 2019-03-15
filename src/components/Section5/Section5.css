@@ -1,6 +1,6 @@
 .Section5 {
   min-height: 100vh;
-  padding: 100px 200px;
+  grid-column: 2;
 }
 
 .title {
@@ -9,16 +9,4 @@
 
 .team-cardlist {
   padding-bottom: 100px;
-}
-
-@media (max-width: 1700px) {
-  .Section5 {
-    padding: 100px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .Section5 {
-    padding: 100px 50px;
-  }
 }

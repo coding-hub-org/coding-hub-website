@@ -5,6 +5,7 @@
   grid-row-gap: 20px;
   background-color: #333333;
   color: white;
+  grid-column: 1/4;
 }
 
 .footer-container a {

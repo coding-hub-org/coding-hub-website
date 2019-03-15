@@ -5,8 +5,8 @@
   /* height: calc(100vh - 200px); */
   /* height: 100%; */
   text-align: center;
-  padding: 100px;
   background: #fafbfc;
+  grid-column: 2;
 }
 
 .title-div {

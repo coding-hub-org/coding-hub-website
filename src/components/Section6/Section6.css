@@ -1,7 +1,6 @@
 .Section6 {
-  padding: 100px 200px;
   min-height: 100vh;
-
+  grid-column: 2;
   background: #fafbfc;
 }
 .contactDiv {

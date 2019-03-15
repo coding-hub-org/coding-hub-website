@@ -2,6 +2,7 @@
   height: 100vh;
   box-sizing: border-box;
   vertical-align: middle;
+  grid-column: 2;
 }
 
 .firstPageImage {

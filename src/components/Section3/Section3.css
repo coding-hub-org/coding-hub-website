@@ -12,7 +12,7 @@
 
 .Section3 {
   text-align: center;
-  padding: 100px;
+  grid-column: 2;
 }
 
 .Section3-Part1 {
