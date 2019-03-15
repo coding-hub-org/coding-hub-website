@@ -1,5 +1,5 @@
 .footer-container {
-  padding: 30px 150px 50px 150px;
+  padding: 30px 70px 50px 150px;
   display: grid;
   grid-template-rows: 2fr 0.5fr;
   grid-row-gap: 20px;
@@ -85,7 +85,7 @@
 
 @media(max-width: 1050px) {
   .footer-container{
-    padding: 30px 100px 50px 100px;
+    padding: 30px 50px 50px 100px;
   }
 
   .footer-row-1 {
@@ -113,7 +113,7 @@
 
 @media(max-width: 900px) {
   .footer-container {
-    padding: 25px 50px 40px 50px;
+    padding: 25px 30px 40px 60px;
   }
 
   .footer-logo{
