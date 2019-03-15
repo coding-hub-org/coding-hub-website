@@ -88,6 +88,10 @@
     padding: 30px 100px 50px 100px;
   }
 
+  .footer-row-1 {
+    padding-bottom: 25px;
+  }
+
   .footer-logo{
     width: 35px;
   }
@@ -109,7 +113,7 @@
 
 @media(max-width: 900px) {
   .footer-container {
-    padding: 25px 70px 40px 70px;
+    padding: 25px 50px 40px 50px;
   }
 
   .footer-logo{
@@ -131,14 +135,17 @@
   }
 
   .footer-logo-container {
-    grid-template-columns: 0.75fr 2fr;
     grid-column-gap: 5px;
   }
 }
 
 @media(max-width: 700px) {
   .footer-container{
-    padding: 25px 60px 35px 60px;
+    padding: 25px 30px 35px 30px;
+  }
+
+  .footer-row-1 {
+    padding-bottom: 15px;
   }
 
   .footer-logo{
