@@ -52,10 +52,10 @@ class Section5 extends Component {
       details: "Coding and Design Lord of Plattsburgh"
     },
     {
-      imageUrl: "https://avatars2.githubusercontent.com/u/27921089?v=4",
-      name: "Khan Le",
+      imageUrl: "https://avatars1.githubusercontent.com/u/19680448?s=400&v=4",
+      name: "Khanh Le",
       title: "Secretary",
-      email: "mailto:kprev003@plattsburgh.edu",
+      email: "mailto:kle003@plattsburgh.edu",
       linkedIn: "",
       website: "web",
       details: "Coding and Design Lord of Plattsburgh"
@@ -63,17 +63,8 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars1.githubusercontent.com/u/10709067?s=400&v=4",
       name: "Michael Gates",
-      title: "Contributor",
+      title: "Avid Contributor",
       email: "mailto:kprev003@plattsburgh.edu",
-      linkedIn: "",
-      website: "web",
-      details: "Coding and Design Lord of Plattsburgh"
-    }, 
-    {
-      imageUrl: "https://avatars1.githubusercontent.com/u/19680448?s=400&v=4",
-      name: "Khanh Le",
-      title: "SECRETARY",
-      email: "mailto:kle003@plattsburgh.edu",
       linkedIn: "",
       website: "web",
       details: "Coding and Design Lord of Plattsburgh"
