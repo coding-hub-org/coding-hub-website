@@ -1,5 +1,4 @@
 .Section5 {
-  min-height: 100vh;
   grid-column: 2;
 }
 
@@ -7,6 +6,3 @@
   text-align: center;
 }
 
-.team-cardlist {
-  padding-bottom: 100px;
-}

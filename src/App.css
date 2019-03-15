@@ -1,5 +1,6 @@
 .App {
   display: grid;
+  grid-row-gap: 8em;
   grid-template-columns: minmax(10vw,1fr) minmax(0,90rem) minmax(10vw,1fr);
 }
 :root {
@@ -10,9 +11,6 @@
   --height: 100px;
 }
 
-* {
-  /* border: 2px solid black; */
-}
 
 @media (max-height: 600px) {
 }

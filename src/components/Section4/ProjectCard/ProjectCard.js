@@ -1,20 +1,24 @@
 import React from "react";
 import "./Card.css";
 
-const card = props => (
-  <div className="card">
-    <div className="cardImage">
-      <img src={props.image} width="50px" alt="" />
+const card = props => {
+  const squareStyle = {
+    backgroundColor: props.color,
+  };
+
+  const linkStyle = {
+    color: props.color
+  }
+  
+  return(
+    <div className="card">
+        <span style={squareStyle} className="card-square"></span>
+        <div className="cardTitle">
+        <h2><span>0{props.number+ 1}</span> {props.title}</h2>
+        </div>
+        <a style={linkStyle} href="/">More +</a> 
     </div>
-    <div className="cardTitle">{props.title}</div>
-    <div className="cardDescription">{props.description}</div>
-    <div className="plusButton">
-      {/* <i>+</i> */}
-      <span className="plus">
-        <a href="/">+ </a>
-      </span>
-    </div>
-  </div>
-);
+  );
+}
 
 export default card;
