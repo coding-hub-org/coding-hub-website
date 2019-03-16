@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./Form.css";
 import firebase from "firebase";
+import FormImage from "../../main_assets/images/form_img.svg";
 
 class Form extends Component {
     state = {
         name: '',
         email: '',
+        service: '',
         comment: ''
     }
 
@@ -21,6 +23,11 @@ class Form extends Component {
                     email: e.target.value
                 });
                 break;
+            case 'service-field':
+                this.setState({
+                    service: e.target.value
+                });
+                break;
             case 'comment-field':
                 this.setState({
                     comment: e.target.value
@@ -34,7 +41,7 @@ class Form extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
 
-        const {name, email, comment} = this.state;
+        const {name, email, service, comment} = this.state;
          // Initialize Cloud Firestore through Firebase
         
         const db = firebase.firestore();
@@ -47,12 +54,14 @@ class Form extends Component {
         this.setState({
             name: '',
             email: '',
+            service: '',
             comment: '',
         });
 
         db.collection("messages").add({
             name: name,
             email: email,
+            service: service,
             comment: comment
         })
         .then(function(docRef) {
@@ -78,43 +87,34 @@ class Form extends Component {
 
     render() {
         return (
-          <form id={"codinghub-form"} onSubmit={this.handleSubmit}>
-            <div className="contact-form">
-              <div className="contact-form-col-1">
-                <div className="contact-form-col-1-row-1">
-                  <input onChange={this.handleChange} className="name-field" type="text" placeholder="Name" />
-                  <input onChange={this.handleChange} className="email-field" type="text" placeholder="Email" />
-                </div>
-                <div className="contact-form-col-1-row-2">
-                  <div className="meeting-room">
-                    <div className="meeting-details-title">Meeting Room:</div>
-                    <div className="meeting-details-value">Beaumont Lab 207</div>
-                  </div>
-                  <div className="meeting-time">
-                    <span className="meeting-details-title">Time:</span>
-                    <span className="meeting-details-value">7:00 - 8:00 pm</span>
-                  </div>
-                  <div className="meeting-day">
-                    <span className="meeting-details-title">Day:</span>
-                    <span className="meeting-details-value">Monday</span>
-                  </div>
-                </div>
-              </div>
-              <div className="contact-form-col-2">
-                <textarea
-                  onChange={this.handleChange}
-                  className="comment-field"
-                  id="message-input"
-                  type="text"
-                  placeholder="Your message here..."
-                />
-              </div>
+          <div className = "form-super-container">
+            <div className="form-img-container">
+              <img src={ FormImage } className="form-img" alt=""/>
             </div>
-            <div className="button">
-                <button><i className="fas fa-envelope"/>SEND MAIL</button>
-            </div>
-
-          </form>
+            <form id={"codinghub-form"} className="form-container" onSubmit={this.handleSubmit}>
+              <div className = "form-inputs">
+                <input onChange = { this.handleChange } className = "name-field" type="text" placeholder="Name"/>
+              </div>
+              <div className = "form-inputs">
+                <input onChange = { this.handleChange } className = "email-field" type="text" placeholder="Email"/>
+              </div>
+              <div className = "form-inputs">
+                <input onChange = { this.handleChange } className = "service-field" type="text" placeholder="Service"/>
+              </div>
+              <div className = "form-inputs">
+              <textarea
+                onChange={this.handleChange}
+                className="comment-field"
+                id="message-input"
+                type="text"
+                placeholder="Message"
+              />
+              </div>
+              <div className = "input-submit">
+                <button onSubmit={ this.handleSubmit } className = "form-submit">SEND</button>
+              </div>
+            </form>
+          </div>
         );
   }
 }
