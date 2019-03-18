@@ -49,7 +49,7 @@
 
 .social-icons > img {
   display: grid;
-  height: 20px;
+  height: 25px;
 }
 
 .footer-navigation {
@@ -74,13 +74,8 @@
     font-size: 21px;
   }
 
-  .copyright,
-  .footer-navigation {
+  .copyright {
     font-size: 0.8em;
-  }
-
-  .social-icons > img {
-    height: 18px;
   }
 }
 

@@ -42,7 +42,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="footer-row-2">
-          <span className="copyright">&copy; 2018 Coding Hub All Rights Reserved</span>
+          <span className="copyright">&copy; 2019 Coding Hub All Rights Reserved</span>
         </div>
       </div>
     );
