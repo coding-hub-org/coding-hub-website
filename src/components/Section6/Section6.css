@@ -1,20 +1,26 @@
 .Section6 {
   min-height: 100vh;
   grid-column: 2;
-  background: #fafbfc;
 }
+
 .contactDiv {
   text-align: center;
   padding-bottom: 100px;
 }
-@media (max-width: 1700px) {
-  .Section6 {
-    padding: 100px;
+
+.contactDiv > .about > div > div{
+  position: relative;
+  left:15%;
+}
+
+@media(max-width: 1000px) {
+  .contactDiv > .about > div > div{
+    left:7%;
   }
 }
 
-@media (max-width: 700px) {
-  .Section6 {
-    padding: 100px 50px;
+@media(max-width: 750px) {
+  .contactDiv > .about > div > div{
+    left:0%;
   }
 }
