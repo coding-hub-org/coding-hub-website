@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="473" height="463" viewBox="0 0 473 463">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7c79f5"/>
+      <stop offset="0.867" stop-color="#7c79f5" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#7c79f5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="data_icon" transform="translate(-14 -19)">
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="236.5" cy="231.5" rx="236.5" ry="231.5" transform="translate(14 19)" fill="url(#radial-gradient)"/>
+    <g id="data_icon-2" data-name="data_icon">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="200.5" cy="200.5" r="200.5" transform="translate(50 50)" fill="#7c79f5"/>
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(153 153)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="15">
+        <rect width="195" height="195" stroke="none"/>
+        <rect x="7.5" y="7.5" width="180" height="180" fill="none"/>
+      </g>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="20" height="50" rx="2" transform="translate(290 263)" fill="#fff"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="20" height="113" rx="2" transform="translate(190 200)" fill="#fff"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="20" height="75" rx="2" transform="translate(240 238)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
