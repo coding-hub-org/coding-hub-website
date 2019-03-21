@@ -3,8 +3,7 @@
     grid-template-columns: repeat(2, minmax(200px, 50%)) ;
 }
 
-.WeDo-Col,
-.WeDo-Col-Img {
+.WeDo-Col {
     display: grid block;
     align-items: center;
     margin: auto;
