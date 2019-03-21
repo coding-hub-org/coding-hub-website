@@ -1,0 +1,24 @@
+.WeDo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.WeDo-Col {
+    display: grid;
+    align-items: center;
+}
+
+.pic {
+    width: 90%;
+}
+
+.service-title-1,
+.service-title-2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.service-title-1 {
+    padding-top: 30px;
+    color: blue;
+}
