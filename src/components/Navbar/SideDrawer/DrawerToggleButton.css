@@ -1,0 +1,15 @@
+.toggle-button {
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  /* color: green; */
+}
+
+@media (max-width: 550px) {
+  .toggle-button {
+    font-size: 16px;
+  }
+}

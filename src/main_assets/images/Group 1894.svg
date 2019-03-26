@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 38 43.998">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-4 {
+        fill: #666;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="ic_lamp" class="cls-1" d="M28,44H10V35.732a19,19,0,1,1,18,0V44ZM12,36v6H26V36ZM19,2a17,17,0,0,0-8,32H26.995A17,17,0,0,0,19,2Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1894" data-name="Group 1894" class="cls-2">
+    <g id="icon_color" data-name="icon color" transform="translate(-6 -4)">
+      <rect id="icon_color_background" data-name="icon color background" class="cls-3" width="50" height="50"/>
+      <rect id="Gary_40" data-name="Gary 40" class="cls-4" width="50" height="50"/>
+    </g>
+  </g>
+</svg>

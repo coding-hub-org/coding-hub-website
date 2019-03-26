@@ -1,0 +1,74 @@
+:root {
+  --main-text-color: #7a7a7a;
+  --secondary-text-color: #7a7a7a;
+  --height: 100px;
+}
+
+.side-drawer {
+  height: 100vh;
+  background: #f9fcfb;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open {
+  transform: translateX(0);
+  transition: transform 0.3s;
+}
+
+.side-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0px;
+}
+
+.side-drawer li {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hireMeButtonSideDrawer {
+  margin-top: 20px;
+}
+
+.hireMeButtonSideDrawer a > span {
+  color: black !important;
+  font-size: 16px;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active {
+  color: var(--main-text-color);
+}
+
+.side-drawer a {
+  font-size: 20px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+@media (min-width: 1601px) {
+  .side-drawer {
+    display: none;
+  }
+}
+
+/* @media (max-height: 450px) {
+  .side-drawer.open {
+    padding-top: 0px;
+  }
+  .side-drawer li {
+    margin: 0.5rem;
+  }
+} */

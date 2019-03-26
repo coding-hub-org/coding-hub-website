@@ -1,0 +1,37 @@
+.Nav-bar{
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+}
+
+.Nav-bar .logo {
+	padding: 0px;
+}
+
+.Nav-bar ul {
+	list-style-type: none;
+	padding: 0px;
+	text-align: center;
+	margin: auto;
+}
+
+.Nav-bar ul li {
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 26.5px;
+}
+
+.Nav-bar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.Nav-bar ul li:hover {
+	/*need to change color here*/
+	background-color: #FF0844;
+}
+

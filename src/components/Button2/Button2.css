@@ -1,0 +1,53 @@
+.btn {
+  background-image: linear-gradient(to right, #fd4e33, #e9345d);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  height: 80px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 4px;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 264px;
+  z-index: 2;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn span {
+  align-items: center;
+  background: #fff;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.btn:hover span {
+  background: transparent;
+}
+
+@media (max-width: 550px) {
+  .btn {
+    font-size: 18px;
+    height: 70px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    font-size: 16px;
+    height: 65px;
+    width: 220px;
+  }
+}

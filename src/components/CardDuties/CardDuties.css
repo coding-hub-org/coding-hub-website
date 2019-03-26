@@ -1,0 +1,55 @@
+.cardDutiesInnerDiv {
+  display: grid;
+  text-align: center;
+  grid-row-gap: 10px;
+  padding: 0px 20px 20px 20px;
+
+  margin-bottom: 20px;
+}
+
+.card-duties-title {
+  font-size: 18px;
+  color: black;
+}
+
+.card-duties-description {
+  color: var(--main-text-color);
+  font-size: 14px;
+}
+
+@media (max-width: 1100px) {
+  .cardDutiesInnerDiv {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cardDutiesInnerDiv {
+    padding: 0px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card-duties-title {
+    font-size: 16px;
+  }
+  .card-duties-description {
+    font-size: 12px;
+  }
+  .card-duties-image > img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-duties-image > img {
+    width: 35px;
+  }
+}
+
+@media (max-width: 350px) {
+  .card-duties-image > img {
+    width: 30px;
+  }
+}
