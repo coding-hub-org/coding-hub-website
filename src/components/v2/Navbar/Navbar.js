@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './Navbar.css'
-import coding_hub_img from "../../main_assets/images/coding_hub_img.png";
+import coding_hub_img from "../../../main_assets/images/v2/coding_hub_img.png";
 
 const Navbar = () => {
 	return (
 		<nav className="Nav-bar">
-			<a href={"/"}>
+			<a href={"#/"}>
 				<img src={coding_hub_img} alt="Logo"/>
 			</a>
 			
