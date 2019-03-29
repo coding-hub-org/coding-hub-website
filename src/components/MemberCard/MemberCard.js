@@ -1,12 +1,12 @@
 import React from "react";
-import "./TeamCard.css";
+import "./MemberCard.css";
 
 // Import images
-import githubMember from '../../../main_assets/images/member_github_ic.svg';
-import linkedinMember from '../../../main_assets/images/member_linkedin_ic.svg';
-import websiteMember from '../../../main_assets/images/member_website_ic.svg';
+import githubMember from '../../main_assets/images/member_github_ic.svg';
+import linkedinMember from '../../main_assets/images/member_linkedin_ic.svg';
+import websiteMember from '../../main_assets/images/member_website_ic.svg';
 
-const teamCard = props => (
+const MemberCard = props => (
   <div className="teamCard">
     <div className="teamCardImage">
       <img src={props.imageUrl} width="250px" alt="" />
@@ -21,4 +21,4 @@ const teamCard = props => (
   </div>
 );
 
-export default teamCard;
+export default MemberCard;

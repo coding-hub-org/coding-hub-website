@@ -1,10 +1,14 @@
 import React, { Component } from "react";
-import "./Section5.css";
-import Title from "../Title/Title";
-import TeamCardList from "./TeamCardList/TeamCardList";
+import "./TeamSection.css";
+
+// Import components
+import Title from "../../components/Title/Title";
+import TeamCardList from "../../components/TeamCardList/TeamCardList";
+
+
 import ScrollableAnchor from "react-scrollable-anchor";
 
-class Section5 extends Component {
+class TeamSection extends Component {
   team = [
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/26859409?v=4",
@@ -73,7 +77,7 @@ class Section5 extends Component {
   render() {
     return (
       <ScrollableAnchor id={"OurTeam"}>
-        <div className="Section5">
+        <div className="team-section">
           <Title title="OUR TEAM" />
           <div className="team-cardlist">
             <TeamCardList member={this.team} />
@@ -84,4 +88,4 @@ class Section5 extends Component {
   }
 }
 
-export default Section5;
+export default TeamSection;

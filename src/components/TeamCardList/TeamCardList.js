@@ -1,12 +1,12 @@
 import React from "react";
 import "./TeamCardList.css";
-import TeamCard from "../TeamCard/TeamCard";
+import MemberCard from "../MemberCard/MemberCard";
 
 const TeamCardList = props => (
   <div className="teamCardList">
     {props.member.map(member => (
       <div className="card-project" id={member.name} key={member.name}>
-        <TeamCard {...member} />
+        <MemberCard {...member} />
       </div>
     ))}
   </div>
