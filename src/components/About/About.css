@@ -1,7 +1,8 @@
 .about {
   text-align: left;
   width: 80%;
-  color: #888888;
+  color: black;
+  background-color: white;
 }
 
 @media (max-width: 1000px) {
