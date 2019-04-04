@@ -1,17 +1,25 @@
 .home-content {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin: 100px 0px;
+	display: flex;
+	flex-direction: row;
+	margin: auto 0px;
+	justify-content: space-between;
+}
+
+.main-content {
+	display: block;
+	height: fit-content;
+	width: 48%;
+	margin: auto;
 }
 
 .text1 {
 	color: #FF0844;
+	font-size: 2.7vw;
 }
 
 .text2 {
 	margin-top: 80px;
-	font-size: 70px;
-	max-width: 648px;
+	font-size: 3.7vw;
 }
 
 a.contact-button {
@@ -21,13 +29,16 @@ a.contact-button {
 	box-shadow: 0 5px 0 darkred;
 
 	display: block;
-	text-decoration: none;
+
 	padding: 10px 20px;
 	border-radius: 10px;
+	margin-top: 78px;
+
+	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bolder;
-	margin-top: 78px;
-	width: 120px;
+	font-size: 0.8vw;
+	width: fit-content;
 	text-align: center;
 }
 
@@ -41,6 +52,10 @@ a.contact-button:active {
 	margin-top: 83px;
 }
 
-.img {
-	align-content: center;
+.home-content img {
+	width: 48%;
+	margin: auto;
 }
+
+/*Media queries*/
+
