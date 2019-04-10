@@ -1,0 +1,42 @@
+.home-section {
+	grid-column: 2;
+	min-height: 100vh;
+}
+
+.home-section .home-section--wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 4em;
+}
+
+.home-section .home-section-left h1 {
+	color: #ff3463;
+}
+
+.home-section .home-section-left h1:nth-child(2) {
+	font-size: 4em;
+	font-size: 3.5em;
+	color: black;
+}
+
+.home-section .home-section-left a {
+	background-color: #ff3463;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+.home-section .home-section-right img {
+	max-width: 810px;
+}
+
+@media only screen and (max-width: 600px) {
+	.home-section .home-section--wrapper {
+		grid-template-columns: 1fr;
+	}
+}

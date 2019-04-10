@@ -46,7 +46,6 @@ class ProjectSection extends Component {
 
 	render() {
 		return (
-			//this.state.classFile
 			<div className="project-section">
 				<div className="project-section-wrapper">
 					<Title title="PROJECTS" />

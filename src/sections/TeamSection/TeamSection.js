@@ -64,7 +64,16 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars1.githubusercontent.com/u/10709067?s=400&v=4",
 			name: "Michael Gates",
-			title: "Avid Contributor",
+			title: "Full Stack Developer",
+			email: "mailto:kprev003@plattsburgh.edu",
+			linkedIn: "",
+			website: "web",
+			details: "Coding and Design Lord of Plattsburgh"
+		},
+		{
+			imageUrl: "https://avatars2.githubusercontent.com/u/39847629?s=400&v=4",
+			name: "Swornim Barahi",
+			title: "Front-end Developer",
 			email: "mailto:kprev003@plattsburgh.edu",
 			linkedIn: "",
 			website: "web",
@@ -75,9 +84,7 @@ class TeamSection extends Component {
 		return (
 			<div className="team-section">
 				<Title title="OUR TEAM" />
-				<div className="team-cardlist">
-					<TeamCardList member={this.team} />
-				</div>
+				<TeamCardList member={this.team} />
 			</div>
 		);
 	}
