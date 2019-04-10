@@ -9,7 +9,7 @@ let aboutUs =
 const section2 = props => (
   <ScrollableAnchor id={"About"}>
     <div className="Section2">
-      <About title="ABOUT" description={aboutUs} />
+      <About title="About Coding Hub" description={aboutUs} />
     </div>
   </ScrollableAnchor>
 );

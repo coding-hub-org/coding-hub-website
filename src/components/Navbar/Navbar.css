@@ -1,37 +1,86 @@
-.Nav-bar{
-	display: flex;
-	flex-direction: row;
-	box-sizing: border-box;
+.Nav-bar {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
-.Nav-bar .logo {
-	padding: 0px;
+.Nav-bar .burger-nav {
+  height: 0;
 }
 
 .Nav-bar ul {
-	list-style-type: none;
-	padding: 0px;
-	text-align: center;
-	margin: auto;
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+  margin: auto;
 }
 
 .Nav-bar ul li {
-	display: inline-block;
-	padding: 15px 30px;
-	border-radius: 26.5px;
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 26.5px;
 }
 
 .Nav-bar ul li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-	color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+  color: black;
 }
 
 .Nav-bar ul li:hover {
-	/*need to change color here*/
-	background-color: #FF0844;
+  /*need to change color here*/
+  background-color: #ff0844;
 }
 
+@media all and (max-width: 768px) {
+  .Nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Nav-bar > a {
+    margin: auto;
+  }
+
+  .Nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0;
+  }
+
+  .Nav-bar ul li {
+    padding: 15px 30px;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .Nav-bar ul li a {
+    font-size: 3vw;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .Nav-bar {
+    display: block;
+  }
+
+  .Nav-bar .burger-nav {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .Nav-bar > a {
+    height: 10vw;
+    width: 10vw;
+
+    position: absolute;
+    left: 45vw;
+  }
+
+  .Nav-bar ul li a {
+    font-size: 4vw;
+  }
+}

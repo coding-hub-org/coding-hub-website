@@ -1,5 +1,6 @@
 .footer-container {
-  padding: 30px 70px 50px 150px;
+  box-sizing: border-box;
+  padding: 50px 0px 50px 70px;
   display: grid;
   grid-template-rows: 2fr 0.5fr;
   grid-row-gap: 20px;
@@ -23,7 +24,7 @@
 .footer-logo-container {
   align-content: center;
   display: grid;
-  grid-template-columns: 0.8fr 2fr;
+  grid-template-columns: 0.6fr 1fr;
   grid-column-gap: 10px;
 }
 
@@ -64,7 +65,7 @@
   white-space: nowrap;
 }
 
-@media(max-width: 1350px) {
+@media(max-width: 1400px) {
   .footer-logo{
     width: 45px;
   }
@@ -84,28 +85,26 @@
 }
 
 @media(max-width: 1150px) {
-  .footer-container{
-    padding: 30px 50px 50px 100px;
-  }
 
   .footer-row-1 {
-    padding-bottom: 25px;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
   }
 
-  .footer-logo{
-    width: 35px;
+  .footer-logo-container{
+    grid-template-columns: none;
+    display: flex;
+    justify-self: center;
+    align-items: center;
   }
   
-  .footer-logo-container > span {
-    line-height: 35px;
-    font-size: 17px;
+  .footer-logo-container > * {
+    margin: 10px;
   }
 
-  .copyright,
-  .footer-navigation {
-    font-size: 0.6em;
+  .footer-container{
+    padding: 50px 0px 50px 0px;
   }
-
   .social-icons {
     grid-column-gap: 8px;
   }
@@ -113,54 +112,37 @@
   .social-icons > img {
     height: 15px;
   }
-}
 
-@media(max-width: 900px) {
-  .footer-container {
-    padding: 25px 30px 40px 60px;
+  .footer-row-2 {
+    text-align: center;
   }
 
-  .footer-logo{
-    width: 35px;
-  }
-  
-  .footer-logo-container > span {
-    line-height: 35px;
-    font-size: 17px;
-  }
-
-  .copyright,
-  .footer-navigation {
-    font-size: 0.6em;
+  .social-icons {
+    grid-column-gap: 20px;
   }
 
   .social-icons > img {
-    height: 12px;
+    height: 21px;
   }
 
-  .footer-logo-container {
-    grid-column-gap: 5px;
+  .footer-navigation {
+    font-size: 1.2em;
   }
 }
 
-@media(max-width: 700px) {
-  .footer-container{
-    padding: 25px 30px 35px 30px;
+@media(max-width: 600px) {
+  .footer-logo {
+    width: 35px;
   }
 
-  .footer-row-1 {
-    padding-bottom: 15px;
+  .footer-logo-container > span {
+    font-size: 17px;
   }
 
-  .footer-logo{
-    width: 25px;
+  .social-icons > img {
+    height: 18px;
   }
   
-  .footer-logo-container > span {
-    line-height: 30px;
-    font-size: 10px;
-  }
-
   .copyright,
   .footer-navigation {
     font-size: 8px;
@@ -171,8 +153,9 @@
     grid-column-gap: 5px;
   }
 
-  .social-icons > img {
-    height: 11px;
+  .footer-navigation{
+    grid-column-gap: 15px;
+    font-size: 14px;
   }
 }
 
