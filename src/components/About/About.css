@@ -1,8 +1,7 @@
 .about {
-  background: #fafbfc;
-  text-align: center;
+  text-align: left;
   width: 80%;
-  margin: auto;
+  color: #888888;
 }
 
 @media (max-width: 1000px) {

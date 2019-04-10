@@ -9,7 +9,7 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/26859409?v=4",
       name: "Gonzalo Reyes",
-      title: "PRESIDENT",
+      title: "President",
       email: "mailto:greye003@plattsburgh.edu",
       linkedIn: "https://www.linkedin.com/in/gonzalo-reyes/",
       website: "https://www.iamgonchi.com/",
@@ -18,7 +18,7 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/25006527?v=4",
       name: "Gaurav Jayasawal",
-      title: "VICE PRESIDENT",
+      title: "Vice President",
       email: "mailto:jgaurav6@gmail.com",
       linkedIn: "https://www.linkedin.com/in/gauravjj/",
       website: "http://www.gauravjj.com",
@@ -27,7 +27,7 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/17516041?v=4",
       name: "Keenan Kunzelman",
-      title: "PR CHAIR",
+      title: "PR Chair",
       email: "mailto:kkunz001@plattsburgh.edu",
       linkedIn: "https://www.linkedin.com/in/keenankunzelman/",
       website: "http://keenan-kunzelman.surge.sh/",
@@ -36,7 +36,7 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/31390562?v=4",
       name: "Hung Nguyen",
-      title: "TREASURER",
+      title: "Treasurer",
       email: "mailto:hnguy011@plattsburgh.edu",
       linkedIn: "https://www.linkedin.com/in/nthungdev/",
       website: "web",
@@ -45,17 +45,26 @@ class Section5 extends Component {
     {
       imageUrl: "https://avatars2.githubusercontent.com/u/27921089?v=4",
       name: "Keith Prevost",
-      title: "PR CHAIR",
+      title: "PR Chair",
       email: "mailto:kprev003@plattsburgh.edu",
       linkedIn: "",
       website: "web",
       details: "Coding and Design Lord of Plattsburgh"
-    }, 
+    },
     {
       imageUrl: "https://avatars1.githubusercontent.com/u/19680448?s=400&v=4",
       name: "Khanh Le",
-      title: "SECRETARY",
+      title: "Secretary",
       email: "mailto:kle003@plattsburgh.edu",
+      linkedIn: "",
+      website: "web",
+      details: "Coding and Design Lord of Plattsburgh"
+    },
+    {
+      imageUrl: "https://avatars1.githubusercontent.com/u/10709067?s=400&v=4",
+      name: "Michael Gates",
+      title: "Avid Contributor",
+      email: "mailto:kprev003@plattsburgh.edu",
       linkedIn: "",
       website: "web",
       details: "Coding and Design Lord of Plattsburgh"

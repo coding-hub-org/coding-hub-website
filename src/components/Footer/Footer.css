@@ -6,6 +6,7 @@
   grid-row-gap: 20px;
   background-image: linear-gradient(#FFFFFF,#FFF2F2);
   color: black;
+  grid-column: 1/4;
 }
 
 .footer-row-1 {
@@ -49,7 +50,7 @@
 
 .social-icons > img {
   display: grid;
-  height: 20px;
+  height: 25px;
 }
 
 .footer-navigation {
@@ -74,17 +75,17 @@
     font-size: 21px;
   }
 
-  .copyright,
-  .footer-navigation {
-    font-size: 0.8em;
+  .social-icons {
+    grid-column-gap: 10px;
   }
 
-  .social-icons > img {
-    height: 18px;
+  .copyright {
+    font-size: 0.8em;
   }
 }
 
 @media(max-width: 1150px) {
+
   .footer-row-1 {
     grid-template-columns: none;
     grid-template-rows: repeat(3, 1fr);
@@ -103,6 +104,13 @@
 
   .footer-container{
     padding: 50px 0px 50px 0px;
+  }
+  .social-icons {
+    grid-column-gap: 8px;
+  }
+
+  .social-icons > img {
+    height: 15px;
   }
 
   .footer-row-2 {
@@ -134,9 +142,29 @@
   .social-icons > img {
     height: 18px;
   }
+  
+  .copyright,
+  .footer-navigation {
+    font-size: 8px;
+    grid-column-gap: 5px;
+  }
+
+  .social-icons {
+    grid-column-gap: 5px;
+  }
 
   .footer-navigation{
     grid-column-gap: 15px;
     font-size: 14px;
+  }
+}
+
+@media(max-width: 500px) {
+  .social-icons {
+    grid-column-gap: 2px;
+  }
+
+  .social-icons > img {
+    height: 8px;
   }
 }

@@ -15,7 +15,6 @@
 @media (max-width: 1300px) {
   .teamCardList {
     display: grid;
-    padding: 0px 100px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
   }

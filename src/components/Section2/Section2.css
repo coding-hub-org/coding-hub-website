@@ -1,11 +1,6 @@
 .Section2 {
-  padding: 100px;
   background: #fafbfc;
-  margin: auto;
+  grid-column: 2;
+
 }
 
-@media (max-width: 700px) {
-  .Section2 {
-    padding: 100px 50px;
-  }
-}

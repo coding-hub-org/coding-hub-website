@@ -1,53 +1,51 @@
 .teamCard {
-  display: grid;
-  padding: 25px 40px;
-  width: auto;
-  border: 2px solid var(--light-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(48,48,48,0.12);
+  -moz-box-shadow: 0px 0px 45px 0px rgba(48,48,48,0.12);
+  box-shadow: 0px 0px 45px 0px rgba(48,48,48,0.12);
+  transition: all 0.5s;
+}
+
+.teamCard:hover {
+  box-shadow: 0px 15px 45px 0px rgba(48,48,48,0.20);
 }
 
 .teamCardImage {
-  display: grid;
   justify-content: center;
 }
 .teamCardImage img {
-  justify-self: center;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0px 2px 5px;
+  margin-bottom: 10px;
 }
 
-.teamCardSymbol {
-  color: var(--main-text-color);
-  font-size: 30px;
+.teamCard .teamInformation {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.teamCard .teamInformation img {
+  height: 30px;
+  width: 30px;
 }
 
 .teamCardName {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0px 5px 0px;
+  color: #6A6A6A;
 }
 
-.teamCardTitle {
-  color: var(--main-text-color);
-  display: grid;
-  align-content: center;
-  padding-right: 5px;
-  /* font-size: 18px; */
+.teamCard p {
+  color: #B1B1B1;
 }
-
-.bottomLine {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-}
-
-.links {
-  justify-self: flex-end;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 15px;
-}
+ 
 .teamCardWebsite {
   justify-self: center;
   height: 36px;
@@ -63,22 +61,6 @@
   font-size: 15px;
 }
 
-.teamCardLinkedIn > a > i {
-  padding: 10px;
-  color: #fff;
-  font-size: 20px;
-}
-
-.teamCardMessage {
-  height: 36px;
-  justify-self: center;
-  width: 36px;
-  text-align: center;
-  background: blue;
-  border-radius: 50%;
-  box-shadow: 0px 1px 1px;
-}
-
 .plusTeamCard {
   color: white;
   text-decoration: none;
@@ -92,12 +74,6 @@
   align-items: center;
 }
 
-.teamCardLinkedIn {
-  display: grid;
-  background-color: #0e76a8;
-  border-radius: 20%;
-  height: 38px;
-}
 
 @media (max-width: 1650px) {
   .teamCard {
@@ -121,44 +97,18 @@
   .teamCardName {
     font-size: 20px;
   }
-  .teamCardTitle {
-    font-size: 16px;
-  }
+ 
 }
 
 @media (max-width: 800px), (max-width: 500px) {
   .teamCardName {
     font-size: 18px;
   }
-  .teamCardTitle {
-    font-size: 14px;
-  }
-  .teamCardSymbol {
-    color: var(--main-text-color);
-    font-size: 24px;
-  }
+  
   .teamCardImage > img {
     width: 200px;
   }
-  .teamCardWebsite,
-  .teamCardLinkedIn,
-  .teamCardMessage {
-    width: 30px;
-    height: 30px;
-  }
-  .teamCardWebsite > a > i {
-    font-size: 12px;
-  }
-  .teamCardLinkedIn > a > i {
-    font-size: 14px;
-  }
-  .plusTeamCard {
-    color: white;
-    width: 30px;
-    height: 30px;
-    text-decoration: none;
-    font-size: 22px;
-  }
+
 }
 @media (max-width: 750px) {
   .teamCardWebsite {
@@ -166,28 +116,6 @@
     height: 36px;
     width: 36px;
     background-color: #ff5661;
-    border-radius: 50%;
-    box-shadow: 0px 1px 1px;
-  }
-
-  .teamCardWebsite > a > i {
-    padding: 10px;
-    color: white;
-    font-size: 15px;
-  }
-
-  .teamCardLinkedIn > a > i {
-    padding: 10px;
-    color: #fff;
-    font-size: 20px;
-  }
-
-  .teamCardMessage {
-    height: 36px;
-    justify-self: center;
-    width: 36px;
-    text-align: center;
-    background: blue;
     border-radius: 50%;
     box-shadow: 0px 1px 1px;
   }
@@ -205,14 +133,6 @@
     align-items: center;
   }
 
-  .teamCardLinkedIn {
-    display: grid;
-    width: auto;
-    background-color: #0e76a8;
-    border-radius: 20%;
-    height: 38px;
-  }
-
   .teamCardImage > img {
     width: 230px;
   }
@@ -220,41 +140,14 @@
   .teamCardName {
     font-size: 22px;
   }
-
-  .teamCardTitle {
-    font-size: 16px;
-  }
-  .teamCardSymbol {
-    font-size: 30px;
-  }
 }
 
 @media (max-width: 500px) {
   .teamCardName {
     font-size: 18px;
   }
-  .teamCardTitle {
-    font-size: 14px;
-  }
-  .teamCardSymbol {
-    color: var(--main-text-color);
-    font-size: 24px;
-  }
   .teamCardImage > img {
     width: 200px;
-  }
-  .teamCardWebsite,
-  .teamCardLinkedIn,
-  .teamCardMessage {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-  }
-  .teamCardWebsite > a > i {
-    font-size: 12px;
-  }
-  .teamCardLinkedIn > a > i {
-    font-size: 14px;
   }
   .plusTeamCard {
     color: white;
@@ -275,44 +168,20 @@
   .teamCardName {
     font-size: 16px;
   }
-  .teamCardTitle {
-    font-size: 12px;
-  }
-  .teamCardSymbol {
-    color: var(--main-text-color);
-    font-size: 20px;
-  }
   .teamCardImage > img {
     width: 170px;
   }
-  .teamCardWebsite,
-  .teamCardLinkedIn,
-  .teamCardMessage {
-    width: 25px;
-    height: 25px;
-    padding: 0px;
-  }
-  .teamCardWebsite > a > i {
-    padding: 7px;
-  }
-
+ 
   .linkedInCircle {
     height: 25px;
     width: 25px;
   }
 
-  .teamCardLinkedIn > a > i {
-    font-size: 12px;
-    padding: 7px;
-  }
   .plusTeamCard {
     color: white;
     width: 25px;
     height: 25px;
     text-decoration: none;
     font-size: 20px;
-  }
-  .links {
-    grid-column-gap: 5px;
-  }
+  } 
 }

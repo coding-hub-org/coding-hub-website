@@ -1,62 +1,34 @@
-import React, { Component } from "react";
+import React from 'react';
 
-import SideDrawer from "./SideDrawer/SideDrawer";
-import Toolbar from "./Toolbar/Toolbar";
-import "./Navbar.css";
-import Backdrop from "../Backdrop/Backdrop";
+import './Navbar.css'
+import coding_hub_img from "../../main_assets/images/coding_hub_img.png";
 
-// import Button from "./components/Button/Button";
-
-class Navbar extends Component {
-  state = {
-    SideDrawerOpen: false
-  };
-
-  navItems = [
-    { id: "item1", value: "HOME", link: "#Home" },
-    { id: "item2", value: "ABOUT", link: "#About" },
-    { id: "item3", value: "WHAT WE DO", link: "#WhatWeDo" },
-    { id: "item4", value: "PROJECTS", link: "#Projects" },
-    { id: "item5", value: "OUR TEAM", link: "#OurTeam" }
-  ];
-
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      return {
-        SideDrawerOpen: !prevState.SideDrawerOpen
-      };
-    });
-  };
-
-  backdropClickHandler = () => {
-    this.setState({ SideDrawerOpen: false });
-  };
-
-  render() {
-    let backdrop;
-
-    if (this.state.SideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
-    return (
-      <div className="Navbar">
-        <Toolbar
-          drawerClickHandle={this.drawerToggleClickHandler}
-          navItems={this.navItems}
-          buttonText="CONTACT US"
-        />
-        {/* <div className="hireMeButton">
-            <Button text="HIRE ME" />
-          </div> */}
-        <SideDrawer
-          show={this.state.SideDrawerOpen}
-          navItems={this.navItems}
-          buttonText="CONTACT US"
-        />
-        {backdrop}
-      </div>
-    );
-  }
+const Navbar = () => {
+	return (
+		<nav className="Nav-bar">
+			<a href={"/"}>
+				<img src={coding_hub_img} alt="Logo"/>
+			</a>
+			
+			<ul>
+				<li><a href="/#about">About</a></li>
+				<li><a href="/#team">Team</a></li>
+				<li><a href="/#services">Services</a></li>
+				<li><a href="/#works">works</a></li>
+				<li><a href="/#contact">Contact Us</a></li>
+			</ul>
+			
+			{/*<a href={"#/"}>*/}
+				{/*<img src={coding_hub_img} alt="Logo"/>*/}
+			{/*</a>*/}
+			
+			{/*<a href="/#about">About</a>*/}
+			{/*<a href="/#team">Team</a>*/}
+			{/*<a href="/#services">Services</a>*/}
+			{/*<a href="/#works">works</a>*/}
+			{/*<a href="/#contact">Contact Us</a>*/}
+		</nav>
+	)
 }
 
-export default Navbar;
+export default Navbar

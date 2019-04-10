@@ -1,0 +1,75 @@
+.WeDo-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 50%)) ;
+}
+
+.WeDo-Col {
+    display: grid block;
+    align-items: center;
+    margin: auto;
+}
+
+
+.WeDo-pic {
+    width: 95%;
+}
+
+.service-title-1,
+.service-title-2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service-title-1 {
+    padding-top: 10px;
+    color: blue;
+}
+
+.service-desc {
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+}
+
+.data-icon {
+    height: 23px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.service-row-3 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+@media(max-width: 1100px) {
+    .service-title-1,
+    .service-title-2 {
+        font-size: 20px;
+    }
+
+    .service-desc {
+        font-size: 15px;
+    }
+
+    .data-icon {
+        height: 20px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 700px) {
+    .service-title-1,
+    .service-title-2 {
+        font-size: 15px;
+    }
+
+    .service-desc {
+        font-size: 10px;
+    }
+
+    .data-icon {
+        height: 13px;
+        padding: 2px;
+    }
+}

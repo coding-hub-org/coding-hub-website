@@ -1,7 +1,8 @@
 .projectCardList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
+  row-gap: 65px;
+  column-gap: 50px;
 }
 
 @media (max-width: 1650px) {
