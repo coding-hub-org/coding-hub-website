@@ -7,7 +7,7 @@ import "./HomeContent.css"
 const HomeContent = () => {
 	return (
 		<div className="home-content">
-			<div>
+			<div className={"main-content"}>
 				<h1 className="text1">Coding Hub</h1>
 				<h2 className="text2">Software solutions for students by students</h2>
 				{/*<button className="contact-button">contact us</button>*/}

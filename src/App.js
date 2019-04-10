@@ -15,8 +15,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Section1 />
-        {/* <Home/> */}
+        {/*<Section1 />*/}
+         <Home/>
         <Section2 />
         <Section3 />
         <Section3End />
