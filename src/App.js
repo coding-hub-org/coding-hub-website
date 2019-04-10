@@ -11,6 +11,7 @@ import "./App.css";
 import HomeSection from "./sections/HomeSection/HomeSection";
 import TeamSection from "./sections/TeamSection/TeamSection";
 import Footer from "./components/Footer";
+import ContactSection from "./sections/ContactSection/ContactSection";
 
 class App extends Component {
 	render() {
@@ -26,6 +27,7 @@ class App extends Component {
         <Section6 /> */}
 				<HomeSection />
 				<TeamSection />
+				<ContactSection />
 				<Footer />
 			</div>
 		);

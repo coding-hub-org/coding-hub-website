@@ -39,4 +39,8 @@
 	.home-section .home-section--wrapper {
 		grid-template-columns: 1fr;
 	}
+
+	.home-section .home-section-right img {
+		width: 100%;
+	}
 }

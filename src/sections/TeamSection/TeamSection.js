@@ -83,7 +83,7 @@ class TeamSection extends Component {
 	render() {
 		return (
 			<div className="team-section">
-				<Title title="OUR TEAM" />
+				<Title title="Our Team" />
 				<TeamCardList member={this.team} />
 			</div>
 		);
