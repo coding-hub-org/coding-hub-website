@@ -1,11 +1,15 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../main_assets/images/coding_hub_ic.svg";
+import logo from "../../main_assets/images/coding-hub-logo.svg";
+import burger from "../../main_assets/images/burger_ic.svg";
 
 const Navbar = () => {
 	return (
 		<nav className="navbar-component">
-			<img src={logo} alt="" />
+			<div className="navbar-component--logo">
+				<img src={logo} alt="Coding Hub logo" />
+			</div>
+			<img id={"burger"} src={burger} alt="Burger icon" />
 			<div className="navbar-component--links">
 				<a href="/" className="navbar-component--navigate">
 					<span>
@@ -32,13 +36,6 @@ const Navbar = () => {
 					<span>
 						<span>
 							<span>WORKS</span>
-						</span>
-					</span>
-				</a>
-				<a href="/" className="navbar-component--navigate">
-					<span>
-						<span>
-							<span>CONTACT US</span>
 						</span>
 					</span>
 				</a>

@@ -12,6 +12,7 @@ import HomeSection from "./sections/HomeSection/HomeSection";
 import TeamSection from "./sections/TeamSection/TeamSection";
 import Footer from "./components/Footer";
 import ContactSection from "./sections/ContactSection/ContactSection";
+import WhatWeDoSection from "./sections/WhatWeDoSection/WhatWeDoSection";
 
 class App extends Component {
 	render() {
@@ -26,6 +27,7 @@ class App extends Component {
 				{/* <ProjectSection/> 
         <Section6 /> */}
 				<HomeSection />
+				<WhatWeDoSection />
 				<TeamSection />
 				<ContactSection />
 				<Footer />
