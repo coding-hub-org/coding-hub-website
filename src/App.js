@@ -9,6 +9,7 @@ import "./App.css";
 // import ProjectSection from "./sections/ProjectsSection/ProjectsSection";
 
 import HomeSection from "./sections/HomeSection/HomeSection";
+import AboutSection from "./sections/AboutSection/AboutSection";
 import TeamSection from "./sections/TeamSection/TeamSection";
 import Footer from "./components/Footer";
 import ContactSection from "./sections/ContactSection/ContactSection";
@@ -27,6 +28,7 @@ class App extends Component {
 				{/* <ProjectSection/> 
         <Section6 /> */}
 				<HomeSection />
+				<AboutSection />
 				<WhatWeDoSection />
 				<TeamSection />
 				<ContactSection />

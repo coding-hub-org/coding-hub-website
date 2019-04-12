@@ -36,7 +36,14 @@
 
 .form-component .form-component--input button {
 	border: none;
-	background-color: #ff3463;
+	background-image: linear-gradient(
+		to right,
+		#ffa36e,
+		#ff956a,
+		#ff8669,
+		#ff766b,
+		#ff666e
+	);
 	color: white;
 	border-radius: 5px;
 	box-shadow: 1px 1px #e1e1e1;
@@ -45,6 +52,7 @@
 	height: 40px;
 	margin-top: 10px;
 	align-self: flex-end;
+	font-weight: bold;
 }
 
 @media (max-width: 1200px) {
