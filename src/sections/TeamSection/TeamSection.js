@@ -82,7 +82,7 @@ class TeamSection extends Component {
 	];
 	render() {
 		return (
-			<div className="team-section">
+			<div id={"team"} className="team-section">
 				<Title title="Our Team" />
 				<TeamCardList member={this.team} />
 			</div>

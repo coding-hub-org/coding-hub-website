@@ -38,7 +38,7 @@ const WhatWeDoSection = () => {
 	));
 
 	return (
-		<div className={"what-we-do-section"}>
+		<div id={"services"} className={"what-we-do-section"}>
 			<Title title="What we do?" />
 			{servicesList}
 			<div className="what-we-do-section--more">

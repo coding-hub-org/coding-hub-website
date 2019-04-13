@@ -11,28 +11,29 @@ const Navbar = () => {
 			</div>
 			<img id={"burger"} src={burger} alt="Burger icon" />
 			<div className="navbar-component--links">
-				<a href="/" className="navbar-component--navigate">
+				<a href="#about" className="navbar-component--navigate">
 					<span>
 						<span>
 							<span>ABOUT</span>
 						</span>
 					</span>
 				</a>
-				<a href="/" className="navbar-component--navigate">
-					<span>
-						<span>
-							<span>TEAM</span>
-						</span>
-					</span>
-				</a>
-				<a href="/" className="navbar-component--navigate">
+				<a href="#services" className="navbar-component--navigate">
 					<span>
 						<span>
 							<span>SERVICES</span>
 						</span>
 					</span>
 				</a>
-				<a href="/" className="navbar-component--navigate">
+				<a href="#team" className="navbar-component--navigate">
+					<span>
+						<span>
+							<span>TEAM</span>
+						</span>
+					</span>
+				</a>
+
+				<a href="#projects" className="navbar-component--navigate">
 					<span>
 						<span>
 							<span>WORKS</span>

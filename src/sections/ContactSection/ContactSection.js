@@ -5,7 +5,7 @@ import Title from "../../components/Title/Title";
 
 const ContactSection = () => {
 	return (
-		<div className={"contact-section"}>
+		<div id={"contact"} className={"contact-section"}>
 			<Title title="Let's get in touch" />
 			<p>
 				Please feel free to drop a message if you want to talk about business
