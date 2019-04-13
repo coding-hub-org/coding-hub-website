@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Form.css";
-import firebase from "firebase";
+// import firebase from "firebase";
 import FormImage from "../../main_assets/images/form_img.svg";
 
 class Form extends Component {
@@ -41,15 +41,15 @@ class Form extends Component {
 	handleSubmit = e => {
 		e.preventDefault();
 
-		const { name, email, service, comment } = this.state;
+		//const { name, email, service, comment } = this.state;
 		// Initialize Cloud Firestore through Firebase
 
-		const db = firebase.firestore();
+		/*const db = firebase.firestore();
 
 		// Disable deprecated features
 		db.settings({
 			timestampsInSnapshots: true
-		});
+		});*/
 
 		this.setState({
 			name: "",
@@ -58,7 +58,7 @@ class Form extends Component {
 			comment: ""
 		});
 
-		db.collection("messages")
+		/*db.collection("messages")
 			.add({
 				name: name,
 				email: email,
@@ -71,16 +71,16 @@ class Form extends Component {
 			})
 			.catch(function(error) {
 				console.error("Error adding document: ", error);
-			});
+			});*/
 	};
 
-	componentDidMount() {
+	/*componentDidMount() {
 		firebase.initializeApp({
 			apiKey: "AIzaSyBAtYBWlr0zOH6p1OpmplNjiapQs1Ftogc",
 			authDomain: "clubwebsite-fc981.firebaseapp.com",
 			projectId: "clubwebsite-fc981"
 		});
-	}
+	}*/
 
 	render() {
 		return (

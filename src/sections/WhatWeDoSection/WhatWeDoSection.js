@@ -19,14 +19,14 @@ const WhatWeDoSection = () => {
 			image: WeDoImg01
 		},
 		{
-			service: "Web and mobile development",
+			service: "Analytics and Data Science",
 			title: "Get the most out of your website with google analytics",
 			content:
 				"We include data analytics (google analytics) as part of most of our projects for research and development.",
 			image: WeDoImg02
 		},
 		{
-			service: "Web and mobile development",
+			service: "Prototyping and design",
 			title: "Get the most out of your website with google analytics",
 			content:
 				"We include data analytics (google analytics) as part of most of our projects for research and development.",
@@ -40,9 +40,6 @@ const WhatWeDoSection = () => {
 	return (
 		<div className={"what-we-do-section"}>
 			<Title title="What we do?" />
-			{/* <WeDoCard />
-			<WeDoCard />
-			<WeDoCard /> */}
 			{servicesList}
 			<div className="what-we-do-section--more">
 				<p>
