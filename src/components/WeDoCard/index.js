@@ -10,15 +10,12 @@ const WeDoCard = ({ information }) => {
 			</div>
 			<div className="we-do-card-component--right">
 				<h2 className="we-do-card-component--right__service">
-					Web and mobile development
+					{information.service}
 				</h2>
 				<h2>Get the most out of your website with google analytics</h2>
 				<div className="we-do-card-component--right__description">
 					<img src={bulletImg} alt="bullet icon" />
-					<p>
-						We include data analytics (google analytics) as part of most of our
-						projects for research and development.
-					</p>
+					<p>{information.content}</p>
 				</div>
 			</div>
 		</div>
