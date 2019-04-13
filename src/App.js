@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-// import ProjectSection from "./sections/ProjectsSection/ProjectsSection";
+import ProjectSection from "./sections/ProjectsSection/ProjectsSection";
 
 import HomeSection from "./sections/HomeSection/HomeSection";
 import AboutSection from "./sections/AboutSection/AboutSection";
@@ -14,11 +14,11 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				{/* <ProjectSection/>*/}
 				<HomeSection />
 				<AboutSection />
 				<WhatWeDoSection />
 				<TeamSection />
+				<ProjectSection />
 				<ContactSection />
 				<Footer />
 			</div>
