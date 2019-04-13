@@ -2,9 +2,6 @@ import React from "react";
 import "./AboutSection.css";
 import Title from "../../components/Title/Title";
 
-// Import images
-import WeDoImg01 from "../../main_assets/images/wedo_img_01.png";
-
 const AboutSection = () => {
 	return (
 		<div className="about-section">

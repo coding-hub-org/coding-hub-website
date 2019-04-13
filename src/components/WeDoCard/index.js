@@ -3,7 +3,6 @@ import "./WeDoCard.css";
 import bulletImg from "../../main_assets/images/bullet_img.svg";
 
 const WeDoCard = ({ information }) => {
-	console.log(information);
 	return (
 		<div className="we-do-card-component">
 			<div className="we-do-card-component--left">
