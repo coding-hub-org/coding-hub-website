@@ -1,28 +1,28 @@
 .title > h1 {
-  font-size: 50px;
-  margin: 0px;
-  color: #000000;
-  text-align: left;
+	font-size: 50px;
+	margin: 0px;
+	color: #1e2053;
+	text-align: left;
 }
 
 .title {
-  padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 
 @media (max-width: 1000px) {
-  .title > h1 {
-    font-size: 40px;
-  }
+	.title > h1 {
+		font-size: 40px;
+	}
 }
 
 @media (max-width: 600px) {
-  .title > h1 {
-    font-size: 30px;
-  }
+	.title > h1 {
+		font-size: 30px;
+	}
 }
 
 @media (max-width: 400px) {
-  .title > h1 {
-    font-size: 26px;
-  }
+	.title > h1 {
+		font-size: 26px;
+	}
 }

@@ -1,0 +1,47 @@
+.what-we-do-section {
+	grid-column: 2;
+}
+
+.what-we-do-section .what-we-do-section--img {
+	width: 90%;
+}
+
+.what-we-do-section .what-we-do-section--more {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.what-we-do-section .what-we-do-section--more img {
+	width: 50%;
+}
+
+.what-we-do-section .what-we-do-section--more p {
+	font-size: 20px;
+	line-height: 30px;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+@media (max-width: 1050px) {
+	.what-we-do-section .what-we-do-section--more p,
+	.what-we-do-section .what-we-do-section--more img {
+		width: 70%;
+	}
+}
+
+@media (max-width: 900px) {
+	.what-we-do-section .what-we-do-section--more p,
+	.what-we-do-section .what-we-do-section--more img {
+		width: 80%;
+	}
+}
+
+@media (max-width: 700px) {
+	.what-we-do-section .what-we-do-section--more p,
+	.what-we-do-section .what-we-do-section--more img {
+		width: 100%;
+	}
+}

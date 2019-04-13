@@ -1,0 +1,114 @@
+.member-card-component {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 40px 10px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 45px 0px rgba(48, 48, 48, 0.12);
+	-moz-box-shadow: 0px 0px 45px 0px rgba(48, 48, 48, 0.12);
+	box-shadow: 0px 0px 45px 0px rgba(48, 48, 48, 0.12);
+	transition: all 0.5s;
+}
+
+.member-card-component:hover {
+	box-shadow: 0px 15px 45px 0px rgba(48, 48, 48, 0.2);
+}
+
+.member-card-component--image {
+	justify-content: center;
+}
+.member-card-component--image img {
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.member-card-component .member-card-component--information {
+	display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+.member-card-component .member-card-component--information img {
+	height: 30px;
+	width: 30px;
+}
+
+.member-card-component--name {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 10px 0px 5px 0px;
+	color: #6a6a6a;
+}
+
+.member-card-component p {
+	color: #b1b1b1;
+}
+
+@media (max-width: 1650px) {
+	.member-card-component {
+		padding: 20px 25px;
+	}
+}
+
+@media (max-width: 1550px) {
+	.member-card-component--image img {
+		width: 230px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.member-card-component--image img {
+		width: 230px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.member-card-component--name {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 800px), (max-width: 500px) {
+	.member-card-component--name {
+		font-size: 18px;
+	}
+
+	.member-card-component--image > img {
+		width: 200px;
+	}
+}
+@media (max-width: 750px) {
+	.member-card-component--image > img {
+		width: 230px;
+	}
+
+	.member-card-component--name {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 500px) {
+	.member-card-component--name {
+		font-size: 18px;
+	}
+	.member-card-component--image > img {
+		width: 200px;
+	}
+}
+
+@media (max-width: 500px) {
+	.member-card-component {
+		padding: 20px 15px;
+	}
+}
+
+@media (max-width: 420px) {
+	.member-card-component--name {
+		font-size: 16px;
+	}
+	.member-card-component--image > img {
+		width: 170px;
+	}
+}

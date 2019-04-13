@@ -1,0 +1,30 @@
+.about-section {
+	grid-column: 2;
+}
+
+.about-section .about-section--wrapper {
+	font-size: 24px;
+	text-align: justify;
+	line-height: 40px;
+	margin: 0 auto;
+	width: 100%;
+	color: #707070;
+}
+
+.about-section .about-section--wrapper a {
+	color: #ff646e;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+	.about-section .about-section--wrapper {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.about-section .about-section--wrapper {
+		font-size: 16px;
+	}
+}

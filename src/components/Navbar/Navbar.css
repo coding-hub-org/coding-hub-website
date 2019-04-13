@@ -1,86 +1,71 @@
-.Nav-bar {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
+.navbar-component {
+	display: flex;
+	box-sizing: border-box;
+	padding: 30px 0;
+	justify-content: space-between;
 }
 
-.Nav-bar .burger-nav {
-  height: 0;
+.navbar-component .navbar-component--logo {
+	display: flex;
 }
 
-.Nav-bar ul {
-  list-style-type: none;
-  padding: 0px;
-  text-align: center;
-  margin: auto;
+.navbar-component .navbar-component--logo img {
+	height: 50px;
 }
 
-.Nav-bar ul li {
-  display: inline-block;
-  padding: 15px 15px;
-  border-radius: 26.5px;
+.navbar-component .navbar-component--links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.navbar-component .navbar-component--links a {
+	text-decoration: none;
+	margin: 0 10px;
+	color: #b5b5c8;
+	font-weight: 500;
+	font-weight: 600;
 }
 
-.Nav-bar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2vw;
-  font-weight: bold;
-  color: black;
+.navbar-component #burger {
+	display: none;
 }
 
-.Nav-bar ul li:hover {
-  /*need to change color here*/
-  background-color: #ff0844;
+@media only screen and (max-width: 900px) {
+	.navbar-component {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		justify-content: center;
+	}
+
+	.navbar-component .navbar-component--logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar-component .navbar-component--links {
+		margin-top: 40px;
+	}
 }
 
-@media all and (max-width: 768px) {
-  .Nav-bar {
-    display: flex;
-    flex-direction: column;
-  }
+@media only screen and (max-width: 650px) {
+	.navbar-component .navbar-component--links {
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
 
-  .Nav-bar > a {
-    margin: auto;
-  }
+	.navbar-component #burger {
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.home-section .home-section--wrapper {
+		margin: 0;
+	}
 
-  .Nav-bar ul {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto 0;
-  }
-
-  .Nav-bar ul li {
-    padding: 15px 30px;
-    width: fit-content;
-    margin: auto;
-  }
-
-  .Nav-bar ul li a {
-    font-size: 3vw;
-  }
-}
-
-@media all and (max-width: 425px) {
-  .Nav-bar {
-    display: block;
-  }
-
-  .Nav-bar .burger-nav {
-    height: 10vw;
-    width: 10vw;
-  }
-
-  .Nav-bar > a {
-    height: 10vw;
-    width: 10vw;
-
-    position: absolute;
-    left: 45vw;
-  }
-
-  .Nav-bar ul li a {
-    font-size: 4vw;
-  }
+	.navbar-component .navbar-component--logo img {
+		height: 40px;
+	}
 }

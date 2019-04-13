@@ -1,16 +1,12 @@
 .App {
-  display: grid;
-  grid-row-gap: 8em;
-  grid-template-columns: minmax(10vw,1fr) minmax(0,90rem) minmax(10vw,1fr);
+	display: grid;
+	grid-row-gap: 8em;
+	grid-template-columns: minmax(10vw, 1fr) minmax(0, 90rem) minmax(10vw, 1fr);
 }
 :root {
-  --main-text-color: #7a7a7a;
-  --secondary-text-color: #7a7a7a;
-  --light-color: #e0dfdf;
-  --darker-color: #878787;
-  --height: 100px;
-}
-
-
-@media (max-height: 600px) {
+	--main-text-color: #7a7a7a;
+	--secondary-text-color: #7a7a7a;
+	--light-color: #e0dfdf;
+	--darker-color: #878787;
+	--height: 100px;
 }
