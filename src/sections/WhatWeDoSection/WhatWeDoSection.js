@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhatWeDoSection.css";
-import Title from "../../components/Title/Title";
+import Title from "../../components/Title";
 import WeDoCard from "../../components/WeDoCard";
 
 // Import images

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Title from "../../components/Title/Title";
+import Title from "../../components/Title";
 import ProjectCardList from "../../components/ProjectCardList";
 
 import "./ProjectsSection.css";

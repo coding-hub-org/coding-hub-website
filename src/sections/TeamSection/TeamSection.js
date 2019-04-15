@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./TeamSection.css";
 
 // Import components
-import Title from "../../components/Title/Title";
+import Title from "../../components/Title";
 import TeamCardList from "../../components/TeamCardList";
 
 class TeamSection extends Component {
