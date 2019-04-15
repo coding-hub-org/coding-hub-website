@@ -1,33 +1,35 @@
 {
-  "name": "psu-coders-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "firebase": "^5.5.5",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-responsive": "^6.0.0",
-    "react-scripts": "^2.1.8",
-    "react-scrollable-anchor": "^0.6.1",
-    "react-window-size": "^1.2.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "file-loader": "^2.0.0",
-    "url-loader": "^1.1.2"
-  }
+	"name": "psu-coders-website",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"firebase": "^5.5.5",
+		"react": "^16.6.0",
+		"react-dom": "^16.6.0",
+		"react-responsive": "^6.0.0",
+		"react-scripts": "^2.1.8",
+		"react-scrollable-anchor": "^0.6.1",
+		"react-window-size": "^1.2.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"file-loader": "^2.0.0",
+		"netlify-cli": "^2.11.7",
+		"url-loader": "^1.1.2"
+	}
 }

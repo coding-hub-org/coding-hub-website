@@ -12,6 +12,7 @@ import WhatWeDoSection from "./sections/WhatWeDoSection/WhatWeDoSection";
 
 class App extends Component {
 	render() {
+		console.log("CIRCLE CI");
 		return (
 			<div className="App">
 				<HomeSection />
