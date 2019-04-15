@@ -10,7 +10,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars2.githubusercontent.com/u/26859409?v=4",
 			name: "Gonzalo Reyes",
-			title: "President",
+			title: "Co-founder | President",
 			email: "mailto:greye003@plattsburgh.edu",
 			linkedIn: "https://www.linkedin.com/in/gonzalo-reyes/",
 			website: "https://www.iamgonchi.com/",
@@ -19,7 +19,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars2.githubusercontent.com/u/25006527?v=4",
 			name: "Gaurav Jayasawal",
-			title: "Vice President",
+			title: "Co-founder | Vice President",
 			email: "mailto:jgaurav6@gmail.com",
 			linkedIn: "https://www.linkedin.com/in/gauravjj/",
 			website: "http://www.gauravjj.com",
@@ -28,7 +28,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars2.githubusercontent.com/u/17516041?v=4",
 			name: "Keenan Kunzelman",
-			title: "PR Chair",
+			title: "Co-founder | CSO",
 			email: "mailto:kkunz001@plattsburgh.edu",
 			linkedIn: "https://www.linkedin.com/in/keenankunzelman/",
 			website: "http://keenan-kunzelman.surge.sh/",
@@ -37,7 +37,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars2.githubusercontent.com/u/31390562?v=4",
 			name: "Hung Nguyen",
-			title: "Treasurer",
+			title: "Co-founder | Lead Mobile Developer",
 			email: "mailto:hnguy011@plattsburgh.edu",
 			linkedIn: "https://www.linkedin.com/in/nthungdev/",
 			website: "web",
@@ -46,7 +46,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars2.githubusercontent.com/u/27921089?v=4",
 			name: "Keith Prevost",
-			title: "PR Chair",
+			title: "Co-founder | Back-end Developer",
 			email: "mailto:kprev003@plattsburgh.edu",
 			linkedIn: "",
 			website: "web",
@@ -55,7 +55,7 @@ class TeamSection extends Component {
 		{
 			imageUrl: "https://avatars1.githubusercontent.com/u/19680448?s=400&v=4",
 			name: "Khanh Le",
-			title: "Secretary",
+			title: "Co-founder | Secretary",
 			email: "mailto:kle003@plattsburgh.edu",
 			linkedIn: "",
 			website: "web",

@@ -12,7 +12,7 @@ const MemberCard = props => (
 			<img src={props.imageUrl} width="250px" alt="" />
 		</div>
 		<div className="member-card-component--name">{props.name}</div>
-		<p>Co-founder | {props.title}</p>
+		<p>{props.title}</p>
 		<section className="member-card-component--information">
 			<a href="/">
 				<img src={websiteMember} alt="" />

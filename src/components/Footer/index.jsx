@@ -36,10 +36,18 @@ class Footer extends Component {
 							</div>
 						</div>
 						<div className="footer-component--wrapper__top--social">
-							<img src={Gmail} alt="" />
-							<img src={LinkedIn} alt="" />
-							<img src={Github} alt="" />
-							<img src={Instagram} alt="" />
+							<a href="mailto:psu-coders@gmail.com">
+								<img src={Gmail} alt="" />
+							</a>
+							<a href="https://github.com/PSUCoders">
+								<img src={Github} alt="Github logo" />
+							</a>
+							<a href="https://www.linkedin.com/company/coding-hub-suny-plattsburgh/about/">
+								<img src={LinkedIn} alt="Linkedin logo" />
+							</a>
+							<a href="https://www.instagram.com/codinghub_plattsburgh/">
+								<img src={Instagram} alt="Instagram logo" />
+							</a>
 						</div>
 					</div>
 					<div className="footer-component--wrapper__bottom">
