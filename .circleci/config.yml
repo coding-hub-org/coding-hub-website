@@ -42,24 +42,20 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
+      - run: yarn build
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # build project
-      - run: echo "Building project"
-      - run: yarn build
       # - run: yarn netlify:deploy
 
 workflows:
   version: 2
-  test_and_build:
+  build_test:
     jobs:
       - test
       - build:
-        requires:
-          - test
-        # filters:
-        #   branches:
-        #     only: master
+          requires:
+            - test
