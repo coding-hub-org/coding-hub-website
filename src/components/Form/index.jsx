@@ -40,6 +40,7 @@ class Form extends Component {
 
 	handleSubmit = e => {
 		e.preventDefault();
+		window.open(`mailto:psucoders@gmail.com?subject=${(this.state.service==="")?("message from "+this.state.name):this.state.service}&body=${this.state.email + ":" + this.state.comment}`);
 
 		//const { name, email, service, comment } = this.state;
 		// Initialize Cloud Firestore through Firebase

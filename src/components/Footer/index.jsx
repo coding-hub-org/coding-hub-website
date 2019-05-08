@@ -20,19 +20,19 @@ class Footer extends Component {
 						</div>
 						<div className="footer-component--wrapper__top--navigation">
 							<div className="footer-navigation-item">
-								<a href="/#About">ABOUT</a>
+								<a href="#about">ABOUT</a>
 							</div>
 							<div className="footer-navigation-item">
-								<a href="/#OurTeam">TEAM</a>
+								<a href="#team">TEAM</a>
 							</div>
 							<div className="footer-navigation-item">
-								<a href="/#WhatWeDo">SERVICES</a>
+								<a href="#services">SERVICES</a>
 							</div>
 							<div className="footer-navigation-item">
-								<a href="/#Projects">PROJECTS</a>
+								<a href="#projects">PROJECTS</a>
 							</div>
 							<div className="footer-navigation-item">
-								<a href="/#ContactUs">CONTACT US</a>
+								<a href="#contact">CONTACT US</a>
 							</div>
 						</div>
 						<div className="footer-component--wrapper__top--social">
