@@ -12,8 +12,9 @@ class TeamSection extends Component {
 			name: "Gonzalo Reyes",
 			title: "Co-founder | President",
 			email: "mailto:greye003@plattsburgh.edu",
-			linkedIn: "https://www.linkedin.com/in/gonzalo-reyes/",
+			linkedIn: "gonzalo-reyes",
 			website: "https://www.iamgonchi.com/",
+			github: "gonzen2310",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -21,8 +22,9 @@ class TeamSection extends Component {
 			name: "Gaurav Jayasawal",
 			title: "Co-founder | Vice President",
 			email: "mailto:jgaurav6@gmail.com",
-			linkedIn: "https://www.linkedin.com/in/gauravjj/",
+			linkedIn: "gauravjj",
 			website: "http://www.gauravjj.com",
+			github: "jgaurav6",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -30,8 +32,9 @@ class TeamSection extends Component {
 			name: "Keenan Kunzelman",
 			title: "Co-founder | CSO",
 			email: "mailto:kkunz001@plattsburgh.edu",
-			linkedIn: "https://www.linkedin.com/in/keenankunzelman/",
+			linkedIn: "keenankunzelman",
 			website: "http://keenan-kunzelman.surge.sh/",
+			github: "KeenanKunzelman",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -39,8 +42,9 @@ class TeamSection extends Component {
 			name: "Hung Nguyen",
 			title: "Co-founder | Lead Mobile Developer",
 			email: "mailto:hnguy011@plattsburgh.edu",
-			linkedIn: "https://www.linkedin.com/in/nthungdev/",
+			linkedIn: "nthungdev",
 			website: "web",
+			github: "nthungdev",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -48,8 +52,9 @@ class TeamSection extends Component {
 			name: "Keith Prevost",
 			title: "Co-founder | Back-end Developer",
 			email: "mailto:kprev003@plattsburgh.edu",
-			linkedIn: "",
+			linkedIn: "keith-prevost-776125161",
 			website: "web",
+			github: "rickyprev",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -57,8 +62,9 @@ class TeamSection extends Component {
 			name: "Khanh Le",
 			title: "Co-founder | Secretary",
 			email: "mailto:kle003@plattsburgh.edu",
-			linkedIn: "",
+			linkedIn: "wkhanh-le",
 			website: "web",
+			github: "winkhanh",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -66,8 +72,9 @@ class TeamSection extends Component {
 			name: "Michael Gates",
 			title: "Full Stack Developer",
 			email: "mailto:kprev003@plattsburgh.edu",
-			linkedIn: "",
+			linkedIn: "michaelgatesdev",
 			website: "web",
+			github: "MichaelGatesDev",
 			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
@@ -75,8 +82,9 @@ class TeamSection extends Component {
 			name: "Swornim Barahi",
 			title: "Front-end Developer",
 			email: "mailto:kprev003@plattsburgh.edu",
-			linkedIn: "",
+			linkedIn: "swornimbarahi",
 			website: "web",
+			github: "swornimbarahi",
 			details: "Coding and Design Lord of Plattsburgh"
 		}
 	];
