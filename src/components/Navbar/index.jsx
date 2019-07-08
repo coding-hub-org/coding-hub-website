@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../main_assets/images/coding-hub-logo.svg";
+import logo from "../../main_assets/images/coding-hub-ic.png";
 import burger from "../../main_assets/images/burger_ic.svg";
 
 const Navbar = () => {
