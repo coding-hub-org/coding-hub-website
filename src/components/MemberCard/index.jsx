@@ -14,13 +14,13 @@ const MemberCard = props => (
 		<div className="member-card-component--name">{props.name}</div>
 		<p>{props.title}</p>
 		<section className="member-card-component--information">
-			<a href="/">
+			<a href={props.website}>
 				<img src={websiteMember} alt="" />
 			</a>
-			<a href="/">
+			<a href={"https://github.com/" + props.github}>
 				<img src={githubMember} alt="" />
 			</a>
-			<a href="/">
+			<a href={"https://www.linkedin.com/in/"+props.linkedIn}>
 				<img src={linkedinMember} alt="" />
 			</a>
 		</section>

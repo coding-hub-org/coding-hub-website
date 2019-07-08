@@ -15,7 +15,7 @@ const ProjectCard = props => {
 				<div className="project-card-component--title">
 					<h2>{props.title}</h2>
 				</div>
-				<a style={linkStyle} href="/">
+				<a style={linkStyle} href={props.link}>
 					More +
 				</a>
 			</div>
