@@ -39,7 +39,7 @@ class Footer extends Component {
 							<a href="mailto:psu-coders@gmail.com">
 								<img src={Gmail} alt="" />
 							</a>
-							<a href="https://github.com/PSUCoders">
+							<a href="https://github.com/coding-hub-org">
 								<img src={Github} alt="Github logo" />
 							</a>
 							<a href="https://www.linkedin.com/company/coding-hub-suny-plattsburgh/about/">
