@@ -62,7 +62,7 @@ Our site is automatically deployed to our hosting service. Any changes made to t
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/coding-hub-org/coding-hub-website/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
