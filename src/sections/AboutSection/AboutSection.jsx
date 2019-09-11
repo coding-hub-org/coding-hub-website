@@ -14,8 +14,8 @@ const AboutSection = () => {
 					the services on Campus. We also offer build portfolio websites for
 					students and provide resources for anyone who is interested in
 					learning how to code. If you are a student at SUNY Plattsburgh and
-					would like to join us, come to Beaumont Hall 205 every Thursday at
-					6:30pm.
+					would like to join us, come to Beaumont Hall 0314 every Thursday at
+					7pm.
 				</p>
 			</div>
 		</div>
