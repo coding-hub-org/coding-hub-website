@@ -7,6 +7,7 @@
 		"react": "^16.6.0",
 		"react-dom": "^16.6.0",
 		"react-responsive": "^6.0.0",
+		"react-router-dom": "^5.1.2",
 		"react-scripts": "^2.1.8",
 		"react-scrollable-anchor": "^0.6.1",
 		"react-window-size": "^1.2.2"
