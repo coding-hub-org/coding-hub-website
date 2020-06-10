@@ -66,6 +66,16 @@ class TeamSection extends Component {
 			website: "web",
 			github: "winkhanh",
 			details: "Coding and Design Lord of Plattsburgh"
+    },
+		{
+			imageUrl: "https://avatars2.githubusercontent.com/u/39847629?s=400&v=4",
+			name: "Swornim Barahi",
+			title: "Full Stack Developer",
+			email: "mailto:swornimbarahi@gmail.com",
+			linkedIn: "swornimbarahi",
+			website: "https://www.swornimbarahi.com",
+			github: "swornimbarahi",
+			details: "Coding and Design Lord of Plattsburgh"
 		},
 		{
 			imageUrl: "https://avatars1.githubusercontent.com/u/10709067?s=400&v=4",
@@ -75,16 +85,6 @@ class TeamSection extends Component {
 			linkedIn: "michaelgatesdev",
 			website: "web",
 			github: "MichaelGatesDev",
-			details: "Coding and Design Lord of Plattsburgh"
-		},
-		{
-			imageUrl: "https://avatars2.githubusercontent.com/u/39847629?s=400&v=4",
-			name: "Swornim Barahi",
-			title: "Front-end Developer",
-			email: "mailto:kprev003@plattsburgh.edu",
-			linkedIn: "swornimbarahi",
-			website: "web",
-			github: "swornimbarahi",
 			details: "Coding and Design Lord of Plattsburgh"
 		}
 	];

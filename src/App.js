@@ -9,6 +9,7 @@ import TeamSection from "./sections/TeamSection/TeamSection";
 import Footer from "./components/Footer";
 import ContactSection from "./sections/ContactSection/ContactSection";
 import WhatWeDoSection from "./sections/WhatWeDoSection/WhatWeDoSection";
+import Banner from "./components/Banner";
 
 class App extends Component {
 	render() {
