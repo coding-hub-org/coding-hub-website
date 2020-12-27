@@ -1,4 +1,22 @@
 .team-section {
-    grid-column: 2;
+	grid-column: 2;
+
 }
-  
+.team-section .button{
+	background-image: linear-gradient(
+		to right,
+		#ffa36e,
+		#ff956a,
+		#ff8669,
+		#ff766b,
+		#ff666e
+	);
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 14px 20px;
+	font-size: 15px;
+	margin: 30px 20px 4em 20px;
+}

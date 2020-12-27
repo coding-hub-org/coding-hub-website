@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./App.css";
-
+import {Switch, BrowserRouter, Route, useLocation} from 'react-router-dom';
 import ProjectSection from "./sections/ProjectsSection/ProjectsSection";
 
 import HomeSection from "./sections/HomeSection/HomeSection";
@@ -9,13 +9,13 @@ import TeamSection from "./sections/TeamSection/TeamSection";
 import Footer from "./components/Footer";
 import ContactSection from "./sections/ContactSection/ContactSection";
 import WhatWeDoSection from "./sections/WhatWeDoSection/WhatWeDoSection";
-import Banner from "./components/Banner";
+import MembersSection from "./sections/MembersSection/MembersSection";
 
-class App extends Component {
+class BaseApp extends Component {
 	render() {
 		console.log("FINISHED SET UP");
 		return (
-			<div className="App">
+			<React.Fragment>
 				<HomeSection />
 				<AboutSection />
 				<WhatWeDoSection />
@@ -23,9 +23,28 @@ class App extends Component {
 				<ProjectSection />
 				<ContactSection />
 				<Footer />
-			</div>
+			</React.Fragment>
 		);
 	}
 }
-
+const ScrollToTop=()=>{
+	const {pathname}=useLocation();
+	useEffect(()=>{
+		window.scrollTo(0,0);
+	},[pathname]);
+	return null;
+}
+const App=()=>{
+	return(
+		<BrowserRouter>
+			<ScrollToTop/>
+			<div className="App">
+			<Switch>
+				<Route exact path='/' component={BaseApp}/>
+				<Route path='/members' component={MembersSection}/>
+			</Switch>
+			</div>
+		</BrowserRouter>
+	)
+}
 export default App;
