@@ -24,8 +24,7 @@ class TeamSection extends Component {
 			linkedIn: "wkhanh-le",
 			website: "https://winkhanh.github.io/#/",
 			github: "winkhanh",
-			details: "Coding and Design Lord of Plattsburgh"
-		},
+    	},
 		{
 			imageUrl: "https://avatars1.githubusercontent.com/u/1631257?s=400&v=4",
 			name: "Michael Barbas",
@@ -34,6 +33,7 @@ class TeamSection extends Component {
 			linkedIn: "michael-barbas-30a147150",
 			website: "https://barbas.me",
 			github: "mbarbas11"
+
 		}
 	];
 	render() {

@@ -1,0 +1,22 @@
+.banner-container {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+.banner-title {
+  font-size: 1.5em;
+  font-weight: bold;
+	padding: 10px;
+}
+
+.banner-info {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.banner-info > a {
+	color: #ff646e;
+	text-decoration: none;
+}

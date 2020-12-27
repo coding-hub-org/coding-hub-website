@@ -3,11 +3,13 @@ import "./HomeSection.css";
 
 import Navbar from "../../components/Navbar";
 import landing_img from "../../main_assets/images/landing_img.svg";
+import Banner from "../../components/Banner";
 
 const HomeSection = () => {
 	return (
 		<div className={"home-section"}>
 			<Navbar />
+      <Banner />
 			<div className="home-section--wrapper">
 				<h1>Software Solutions for Students by Students</h1>
 				<a href="#contact">CONTACT US</a>
